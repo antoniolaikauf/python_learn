@@ -16,6 +16,8 @@
  ## Caratteristiche python 
  una delle caratteristiche di python è **l'indentazione** con lo spazio, se io scrivessi   print('cisidj') e questa linea di codice non è attaccata al lato sinistro e c'è dello spazio quando si esegue il codice uscirà un errore  ![](img/Screenshot%202024-06-15%20153450.png).
 
+ Python per comunicare con il computer utilizza un tipo di codifica chiamato **unicode** cosi che il compilatore trasforma il codice in stringe di bit 0 o 1 
+
  ## Data type 
  Un data type è un attributo associato a un pezzo di dato che dice al computer come interpetrare il suo valore.
  Per determinare il nome di una variabile si usa la funzione **type()** .
@@ -31,4 +33,13 @@
     1. string 
     2. list
     3. tuples
- 
+
+Per cambiare il tipo di dato python ha due metodi **implicito** ed **esplicito** 
+
+## Funzione di Print()
+la funzione di print ha delle keywords che possono essere validate come argomento aggiuntivo, questi possono essere **object**, **sep**, **end**, esiste anche un file dove vengono stampati i valori, quello di default è **STD** 
+
+es Set. ![](img/Screenshot%202024-06-15%20170155.png)
+
+# Links 
+- https://docs.python.org/3/library/functions.html funzioni di python 
