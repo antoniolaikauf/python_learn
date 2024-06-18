@@ -14,3 +14,16 @@ match error:
         print('bad request')
     case _:
         print('not know')
+
+
+import time 
+
+satrt_time= time.time()
+
+for i in range(10):
+    for y in range(10):
+        print(y, end=' ')
+    print('\n')
+
+print(round(time.time() - satrt_time))
+

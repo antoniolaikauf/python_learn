@@ -14,7 +14,7 @@
  ci possono essere due metodo di eseguire il codice: uno da **direttamente dall IDE** l'altro tramite il **terminale** nel seguente modo: si scrive python e il nome del file python 
 
  ## Caratteristiche python 
- una delle caratteristiche di python è **l'indentazione** con lo spazio, se io scrivessi   print('cisidj') e questa linea di codice non è attaccata al lato sinistro e c'è dello spazio quando si esegue il codice uscirà un errore  ![](img/Screenshot%202024-06-15%20153450.png).
+ una delle caratteristiche di python è **l'indentazione** con lo spazio, se io scrivessi  print('cisidj') e questa linea di codice non è attaccata al lato sinistro e c'è dello spazio quando si esegue il codice uscirà un errore  ![](img/Screenshot%202024-06-15%20153450.png).
 
  Python per comunicare con il computer utilizza un tipo di codifica chiamato **unicode** cosi che il compilatore trasforma il codice in stringe di bit 0 o 1 
 
@@ -52,6 +52,9 @@ Le condizioni potrebberro lavorare bene quando sono poche ma quando sono tante i
 Con match si possono combinare varie condizioni con l'operatore or 
 
 ![](img/Screenshot%202024-06-18%20154427.png)
+
+## Librerie
+ - time : calcolare il tempo di eecuzione 
 
 
 # Links 
