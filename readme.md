@@ -42,10 +42,16 @@ la funzione di print ha delle keywords che possono essere validate come argoment
 es Set. ![](img/Screenshot%202024-06-15%20170155.png)
 
 ## Operatori 
--  operatori matematici  + - * / 
-- operatori logici che controllano il flow del tuo programma or and not 
+- operatori matematici  + - * / 
+- operatori logici or and not 
 
-Gli operatori sono seguiti da **condizioni** 
+Gli operatori sono seguiti da **condizioni** che controllano il flow del tuo programma che decidono cosa eseguire o cosa non eseguire.
+
+Le condizioni potrebberro lavorare bene quando sono poche ma quando sono tante il codice inizia a diventare molto lungo e complesso quindi si usa **match** che è stato introdotto nella versione 3.10.
+
+Con match si possono combinare varie condizioni con l'operatore or 
+
+![](img/Screenshot%202024-06-18%20154427.png)
 
 
 # Links 
