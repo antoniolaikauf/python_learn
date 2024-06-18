@@ -59,3 +59,5 @@ Con match si possono combinare varie condizioni con l'operatore or
 
 # Links 
 - https://docs.python.org/3/library/functions.html funzioni di python 
+
+- https://realpython.com/python-conditional-statements/
