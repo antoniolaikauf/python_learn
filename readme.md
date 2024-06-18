@@ -41,5 +41,12 @@ la funzione di print ha delle keywords che possono essere validate come argoment
 
 es Set. ![](img/Screenshot%202024-06-15%20170155.png)
 
+## Operatori 
+-  operatori matematici  + - * / 
+- operatori logici che controllano il flow del tuo programma or and not 
+
+Gli operatori sono seguiti da **condizioni** 
+
+
 # Links 
 - https://docs.python.org/3/library/functions.html funzioni di python 
