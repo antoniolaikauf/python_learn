@@ -68,10 +68,11 @@ permette di organizzare e di disporre i suoi dati per eseguire operazioni su di 
 Python dispone di 4 stutture dati:
 
 1. tuple 
-2. set 
+  - possono contenere qualsiasi tipo di dato ma la differesza con il set è che non si possono modificare i valori dentro ai tuple quindi sono immutabili 
+2. elenco 
    - possono contenere qualsiasi tipo di dato 
 3. dizionario 
-4. elenco 
+4. set 
 
 inoltre pyhton permette di creare la propria struttura dati come **Stack**, **Queue**, **Tree**
 

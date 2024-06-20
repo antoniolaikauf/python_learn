@@ -42,6 +42,8 @@ def num2():
 
 num2()
 
-# set 
+# elenco 
 set =['string', 2 , True, 4.54]
+# tuple
+tuple=('string', 1 , False, 4.76)
 
