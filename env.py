@@ -42,3 +42,6 @@ def num2():
 
 num2()
 
+# set 
+set =['string', 2 , True, 4.54]
+

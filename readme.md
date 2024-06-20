@@ -63,10 +63,13 @@ built-in e global sono accessibili ovunque invece enclosing e local no
 Lo scopo dello scope è quello di proteggere la variabile, in modo che non venga modificata da altre parti del codice.
 
 ## strutture dati 
-permette di organizzare e di disporre i suoi dati per eseguire operazioni su di esse. Python dispone di 4 stutture dati:
+permette di organizzare e di disporre i suoi dati per eseguire operazioni su di esse. Queste strutture dati possono essere **Mutabili** o **Immutabili**.
+
+Python dispone di 4 stutture dati:
 
 1. tuple 
 2. set 
+   - possono contenere qualsiasi tipo di dato 
 3. dizionario 
 4. elenco 
 
