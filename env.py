@@ -46,4 +46,6 @@ num2()
 set =['string', 2 , True, 4.54]
 # tuple
 tuple=('string', 1 , False, 4.76)
+# set 
+set={1,2,3,4,5,6}
 

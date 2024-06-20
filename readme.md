@@ -73,6 +73,7 @@ Python dispone di 4 stutture dati:
    - possono contenere qualsiasi tipo di dato 
 3. dizionario 
 4. set 
+  - i set non permettono di avere valori duplicati, con i set si possono fare diverse operazione matematiche tra due set come l'unione l'intersezione e la differenza tra due insiemi 
 
 inoltre pyhton permette di creare la propria struttura dati come **Stack**, **Queue**, **Tree**
 
