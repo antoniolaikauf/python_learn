@@ -27,3 +27,18 @@ for i in range(10):
 
 print(round(time.time() - satrt_time))
 
+# variabile globale 
+global_vr=5
+
+def num2():
+    # encloser variabile 
+    encloser_vr=20
+    def num():
+       # local variabile    
+       local_vr=10
+       print('variabile globale', global_vr)
+       print('variabile encloser', encloser_vr) 
+    num()
+
+num2()
+
