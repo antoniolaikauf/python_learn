@@ -53,6 +53,9 @@ Con match si possono combinare varie condizioni con l'operatore or
 
 ![](img/Screenshot%202024-06-18%20154427.png)
 
+## Funzioni 
+L e funzioni per essere dichiarate con la key def seguita dal nome della funzione
+
 ## Librerie
  - time : calcolare il tempo di eecuzione 
 
