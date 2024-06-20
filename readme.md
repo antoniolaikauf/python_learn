@@ -56,7 +56,7 @@ Con match si possono combinare varie condizioni con l'operatore or
 ## Funzioni 
 L e funzioni per essere dichiarate con la key def seguita dal nome della funzione, i vari tipi di scope (l'ambito di visibilità di una certa variabile, o l'insieme di variabili utilizzate all'interno di una funzione) sono **local** **enclosing** **global** **built-in**
 
-built-in e global sono accessibili ovunque invece enclosing e local no 
+built-in e global sono accessibili ovunque invece enclosing e local no
 
 ![](img/Screenshot%202024-06-20%20143532.png)
 
