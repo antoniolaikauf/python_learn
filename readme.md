@@ -82,6 +82,8 @@ Python dispone di 4 stutture dati:
 
 inoltre pyhton permette di creare la propria struttura dati come **Stack**, **Queue**, **Tree**
 
+La differenza tra quali strutture di dati scegliere va in base alla **dimensione**, **velocità**, **prestazione**
+
 ## Librerie
  - time : calcolare il tempo di eecuzione 
 
