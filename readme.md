@@ -91,4 +91,6 @@ La differenza tra quali strutture di dati scegliere va in base alla **dimensione
 # Links 
 - https://docs.python.org/3/library/functions.html funzioni di python 
 
+- https://realpython.com/python-data-structures/ strutture dati 
+
 - https://realpython.com/python-conditional-statements/
