@@ -42,6 +42,14 @@ def num2():
 
 num2()
 
+# args 
+def sum(*args):
+    print(type(args))
+    for i in args:
+        print(i)
+
+sum(1,2,3,4,5,6,7,8)
+
 # elenco 
 set =['string', 2 , True, 4.54]
 # tuple
