@@ -54,13 +54,23 @@ Con match si possono combinare varie condizioni con l'operatore or
 ![](img/Screenshot%202024-06-18%20154427.png)
 
 ## Funzioni 
-L e funzioni per essere dichiarate con la key def seguita dal nome della funzione, i vari tipi di scope (l'ambito di visibilità di una certa variabile, o l'insieme di variabili utilizzate all'interno di una funzione) sono **local** **enclosing** **global** **built-in**
+L e funzioni per essere dichiarate con la key def seguita dal nome della funzione, i vari tipi di scope (l'ambito di visibilità di una certa variabile, o l'insieme di variabili utilizzate all'interno di una funzione) sono **local**, **enclosing**, **global**, **built-in**
 
 built-in e global sono accessibili ovunque invece enclosing e local no
 
 ![](img/Screenshot%202024-06-20%20143532.png)
 
 Lo scopo dello scope è quello di proteggere la variabile, in modo che non venga modificata da altre parti del codice.
+
+## strutture dati 
+permette di organizzare e di disporre i suoi dati per eseguire operazioni su di esse. Python dispone di 4 stutture dati:
+
+1. tuple 
+2. set 
+3. dizionario 
+4. elenco 
+
+inoltre pyhton permette di creare la propria struttura dati come **Stack**, **Queue**, **Tree**
 
 ## Librerie
  - time : calcolare il tempo di eecuzione 
