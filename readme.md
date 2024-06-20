@@ -39,7 +39,9 @@ Per cambiare il tipo di dato python ha due metodi **implicito** ed **esplicito**
 ## Funzione di Print()
 la funzione di print ha delle keywords che possono essere validate come argomento aggiuntivo, questi possono essere **object**, **sep**, **end**, esiste anche un file dove vengono stampati i valori, quello di default è **STD** 
 
-es Set. ![](img/Screenshot%202024-06-15%20170155.png)
+es Set. 
+
+![](img/Screenshot%202024-06-15%20170155.png)
 
 ## Operatori 
 - operatori matematici  + - * / 
@@ -72,6 +74,7 @@ Python dispone di 4 stutture dati:
 2. elenco 
    - possono contenere qualsiasi tipo di dato 
 3. dizionario 
+   - si basano sulle key e non sull'index, all'interno non ci possno essere due key uguali 
 4. set 
   - i set non permettono di avere valori duplicati, con i set si possono fare diverse operazione matematiche tra due set come l'unione l'intersezione e la differenza tra due insiemi 
 

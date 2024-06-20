@@ -48,4 +48,6 @@ set =['string', 2 , True, 4.54]
 tuple=('string', 1 , False, 4.76)
 # set 
 set={1,2,3,4,5,6}
+# dizionaro
+dizionario={1:'acqua', 2:'aranciata'}
 
