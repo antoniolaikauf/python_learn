@@ -59,3 +59,13 @@ set={1,2,3,4,5,6}
 # dizionaro
 dizionario={1:'acqua', 2:'aranciata'}
 
+
+# gestione errore 
+def division(a,b):
+    return a/b
+try:
+  print(division(40,0))
+except Exception as e:
+    print(e)
+
+

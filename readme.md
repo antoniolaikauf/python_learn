@@ -91,7 +91,11 @@ Ci sono due tipi di errori
 - errori di sintassi
   - causati principalmente dai sviluppatori segnalati principalmente dal IDE 
 - eccezioni 
-  - succedono durante l'esecuzione del codice 
+  - succedono durante l'esecuzione del codice
+
+per modificare il messaggio di errore si usa **try** o **except** nel except si possno ottenere le informazini dell'eccezione usando la classe e as e 
+
+![](img/Screenshot%202024-06-21%20144617.png)
 
 ## Librerie
  - time : calcolare il tempo di eecuzione 
@@ -101,5 +105,7 @@ Ci sono due tipi di errori
 - https://docs.python.org/3/library/functions.html funzioni di python 
 
 - https://realpython.com/python-data-structures/ strutture dati 
+
+- https://pythonbasics.org/try-except/ try e except
 
 - https://realpython.com/python-conditional-statements/
