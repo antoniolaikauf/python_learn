@@ -121,4 +121,6 @@ si può leggere e gestire i file in python in testo o in un formato binario
 
 - https://pythonbasics.org/try-except/ try e except
 
+- https://pynative.com/python/file-handling/ gestione file 
+
 - https://realpython.com/python-conditional-statements/
