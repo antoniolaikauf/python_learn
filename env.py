@@ -69,3 +69,7 @@ except Exception as e:
     print(e)
 
 
+# leggere file 
+with open('text.txt', mode='r') as f:
+    read=f.readlines()
+    print(read)
