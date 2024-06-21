@@ -84,6 +84,15 @@ inoltre pyhton permette di creare la propria struttura dati come **Stack**, **Qu
 
 La differenza tra quali strutture di dati scegliere va in base alla **dimensione**, **velocità**, **prestazione**
 
+## Errori
+
+Ci sono due tipi di errori 
+
+- errori di sintassi
+  - causati principalmente dai sviluppatori segnalati principalmente dal IDE 
+- eccezioni 
+  - succedono durante l'esecuzione del codice 
+
 ## Librerie
  - time : calcolare il tempo di eecuzione 
 
