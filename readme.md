@@ -97,7 +97,7 @@ per modificare il messaggio di errore si usa **try** o **except** nel except si 
 
 ![](img/Screenshot%202024-06-21%20144617.png)
 
-## funzioni file
+## Funzioni file
 Ci sono tre tipi di funzioni per gestire i file **open** **close** **with**
 
 - open 
@@ -111,6 +111,7 @@ si può leggere e gestire i file in python in testo o in un formato binario
 
 ## Librerie
  - time : calcolare il tempo di eecuzione 
+ - random: scegliere random scelte 
 
 
 # Links 
