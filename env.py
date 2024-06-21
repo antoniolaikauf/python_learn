@@ -69,10 +69,15 @@ except Exception as e:
     print(e)
 
 
+import random
+name=['Ace', 'Atlas', 'Bailey', 'Bear', 'Blaze', 'Boomer', 'Buddy', 'Coco', 'Cooper', 'Duke', 'Dozer', 'Echo', 'Gizmo', 'Harley', 'Mac', 'Max', 'Milo', 'Oscar', 'Rex', 'Rocky', 'Rocket', 'Wolfie']
 try:
 # leggere file 
   with open('text.txt', mode='r') as f:
-    read=f.readlines()
-    print(read)
+      read_content=f.read().split()
+      random_choise=random.choice(read_content)
+      print(random_choise)
+    # for i in name:
+        # f.writelines(i+'\n')
 except FileNotFoundError as e:
     print(e)
