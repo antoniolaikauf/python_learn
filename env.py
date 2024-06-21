@@ -69,7 +69,10 @@ except Exception as e:
     print(e)
 
 
+try:
 # leggere file 
-with open('text.txt', mode='r') as f:
+  with open('text.txt', mode='r') as f:
     read=f.readlines()
     print(read)
+except FileNotFoundError as e:
+    print(e)
