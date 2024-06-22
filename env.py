@@ -107,11 +107,21 @@ def pure_function(lst, num):
 print(pure_function(list_num,5))
 print(list_num)
 
-
+# time O(n!)
 def factorial(n):
     factorial=1
-    for i in range(n,1,-1):
+    for i in range(1,n+1):
+        print(i)
         factorial*=i
     return factorial
 
 print(factorial(5))
+#  metodo ricorsione 
+def factorial_recursive(n):
+    if n > 1:
+        return n * factorial_recursive(n -1)
+    else:
+        return 1
+print(factorial_recursive(5))
+
+
