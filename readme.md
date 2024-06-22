@@ -1,4 +1,7 @@
 # Python
+python consente ai sui svilupptori di strutturare il loro codice in molti modi, consente modelli di programmazione orientati agli oggetti(creazione di oggetti e classi), procedurali(si basa sulla creazione di funzioni) e funzionali(utilizzo di funzioni pure es. map, filter)
+
+Python consente modelli di programmazione orientati agli oggetti, procedurali e funzionali, o come spesso vengono chiamati paradigmi.
 
 ## Enviroment 
  per creare un ambiente di lavoro si usa **py -m venv nome_ambiente**,
