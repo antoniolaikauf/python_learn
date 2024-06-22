@@ -123,5 +123,3 @@ def factorial_recursive(n):
     else:
         return 1
 print(factorial_recursive(5))
-
-
