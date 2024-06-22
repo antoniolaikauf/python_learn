@@ -133,6 +133,8 @@ per calcolare il tempo necessario per un algoritmo ad essere completato si usa l
    - negli algoritmi con complessità temporale lineare il tempo di esecuzione cresce in base alla grandezza dell'input es. cercare elementi dentro ad un array
 - tempo quadratico 
    - negli algoritmi con complessità quadratica, i tempi di esecuzione crescono con il quadrato delle dimensioni dell'ingresso es. un ciclo dentro ad un altro ciclo ( un nested loop)
+- tempo logaritmico 
+   - negli algoritmi con complessità logaritmica, i tempi di esecuzione creascono logaritmicamente con la dimensione dei dati di ingresso 
 
 
 
