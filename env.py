@@ -106,3 +106,12 @@ def pure_function(lst, num):
 
 print(pure_function(list_num,5))
 print(list_num)
+
+
+def factorial(n):
+    factorial=1
+    for i in range(n,1,-1):
+        factorial*=i
+    return factorial
+
+print(factorial(5))
