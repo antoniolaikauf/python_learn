@@ -61,7 +61,7 @@ Con match si possono combinare varie condizioni con l'operatore or
 ![](img/Screenshot%202024-06-18%20154427.png)
 
 ## Funzioni 
-Per utilizare la funzione la sintassi è  def seguita dal nome della funzione, un argomento molto importante sono i vari tipi di scope (l'ambito di visibilità di una certa variabile, o l'insieme di variabili utilizzate all'interno di una funzione) sono **local**, **enclosing**, **global**, **built-in**
+Per utilizare la funzione la sintassi è def seguita dal nome della funzione, un argomento molto importante sono i vari tipi di scope (l'ambito di visibilità di una certa variabile, o l'insieme di variabili utilizzate all'interno di una funzione) sono **local**, **enclosing**, **global**, **built-in**
 
 built-in e global sono accessibili ovunque invece enclosing e local no
 
@@ -70,6 +70,8 @@ built-in e global sono accessibili ovunque invece enclosing e local no
 Lo scopo dello scope è quello di proteggere la variabile, in modo che non venga modificata da altre parti del codice.
 
 Nelle funzioni si possono passare i parametri come tutti gli altri linguaggi di programmazione, ma se si volesse passare molti parametri al posto di crease un parametro per ogni elemento passato alla funzione si può usare *args, che avrà le proprietà dei tuple essendo un tuple 
+
+i due tipi di funzione possono essere tradizionali o pure, le funzioni pure sono funzioni che non cambiano o non hanno nessun effetto su variabili, data, set, oltre il suo proprio ambito es. se si avesse una variabile globale le funzioni pure non riuscirebbero a modificarla 
 
 ## strutture dati 
 permette di organizzare e di disporre i suoi dati per eseguire operazioni su di esse. Queste strutture dati possono essere **Mutabili** o **Immutabili**.

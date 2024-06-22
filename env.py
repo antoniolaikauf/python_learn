@@ -95,3 +95,14 @@ def palindome(str):
 
 print(palindome('racecar'))
 print(palindome('racecarhfhfh'))
+
+
+list_num=[1,2,3,4]
+# funzione pure non cambia una variabile globale ma cambia un avariabile nel proprio ambito
+def pure_function(lst, num):
+    nl=lst.copy()
+    nl.append(num)
+    return nl
+
+print(pure_function(list_num,5))
+print(list_num)
