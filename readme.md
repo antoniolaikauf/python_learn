@@ -1,5 +1,5 @@
 # Python
-python consente ai sui svilupptori di strutturare il loro codice in molti modi, consente modelli di programmazione orientati agli oggetti(creazione di oggetti e classi), procedurali(si basa sulla creazione di funzioni) e funzionali(utilizzo di funzioni pure es. map, filter)
+Python consente ai sui svilupptori di strutturare il loro codice in molti modi, consente modelli di programmazione orientati agli oggetti(creazione di oggetti e classi), procedurali(si basa sulla creazione di funzioni) e funzionali(utilizzo di funzioni pure es. map, filter)
 
 Python consente modelli di programmazione orientati agli oggetti, procedurali e funzionali, o come spesso vengono chiamati paradigmi.
 
@@ -115,6 +115,11 @@ si può leggere e gestire i file in python in testo o in un formato binario
 ## Librerie
  - time : calcolare il tempo di eecuzione 
  - random: scegliere random scelte 
+
+
+## Algoritmi
+
+Possono avere **tempo costante** in cui non bisogna iterare su nessun componente e quindi il tempo non cambia, **tempo lineare** in cui il tempo cresce in base all'input, **tempo logaritmo** il tempo necessario per eseguire un algoritmo cresce in modo logaritmico rispetto alle dimensioni dell'input 
 
 
 # Links 

@@ -81,3 +81,17 @@ try:
         # f.writelines(i+'\n')
 except FileNotFoundError as e:
     print(e)
+
+# algoritmo
+import math
+def palindome(str):
+    index=0
+    half=math.floor(len(str)/2)
+
+    for x in range(len(str)-1, half, -1):
+        if str[index] != str[x]: return 'parola non palindroma'
+        index+=1
+    return 'parola palindoma'
+
+print(palindome('racecar'))
+print(palindome('racecarhfhfh'))
