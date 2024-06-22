@@ -30,3 +30,10 @@ print(string('questo è un esercizio difficilissimo','ci'))
 # in caso contrario dovrà restituire il valore False.
 # Per esempio, se le liste fossero [21, 28, 26] e [23, 27, 28], la funzione dovrebbe restituire True,
 # mentre se le liste fossero [21, 28, 26] e [23, 12, 28] la funzione dovrebbe restituire False.
+
+def arr_list(list1,list2):
+    for i,x in enumerate(list2):
+        if x <18 or list1[i]<18:
+            return False
+    return True
+print(arr_list([21, 28, 26],[23, 12, 28]))
