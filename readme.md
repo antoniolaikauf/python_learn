@@ -1,7 +1,7 @@
 # Python
 Python consente ai sui svilupptori di strutturare il loro codice in molti modi, consente modelli di programmazione orientati agli oggetti(creazione di oggetti e classi), procedurali(si basa sulla creazione di funzioni) e funzionali (utilizzo di funzioni pure es. map, filter)
 
-Python consente modelli di programmazione orientati agli oggetti, procedurali e funzionali, o come spesso vengono chiamati paradigmi.
+Python consente modelli di programmazione orientati agli oggetti, procedurali e funzionali
 
 ## Ambiente  
  per creare un ambiente di lavoro si usa **py -m venv nome_ambiente**,
@@ -117,8 +117,9 @@ Ci sono tre tipi di funzioni per gestire i file **open** **close** **with**
 si può leggere e gestire i file in python in testo o in un formato binario 
 
 ## Librerie
- - time : calcolare il tempo di eecuzione 
+ - time: calcolare il tempo di eecuzione 
  - random: scegliere random scelte 
+ - pdb: per debuggare 
 
 
 ## Algoritmi

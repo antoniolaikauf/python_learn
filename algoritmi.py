@@ -1,3 +1,9 @@
+for x in range(1,6):
+    for y in range(x):
+        print('#' , end=' ')
+    print('\n')
+
+
 def anagramma(str1,str2):
     if len(str2)==len(str1):
         return all(x in str2 for x in str1)
