@@ -1,3 +1,23 @@
+import sys
+
+# Intero
+i = 1000000
+print(f"Intero (10): {sys.getsizeof(1000000)} bytes")
+
+# Float
+f = 10.0
+print(f"Float (10.0): {sys.getsizeof(f)} bytes")
+
+# Booleano
+b = True
+print(f"Booleano (True): {sys.getsizeof(b)} bytes")
+
+# Stringa
+s = "o"
+print(f"Stringa (Hello): {sys.getsizeof(s)} bytes")
+
+
+
 for x in range(1,6):
     for y in range(x):
         print('#' , end=' ')

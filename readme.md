@@ -28,14 +28,14 @@ Python consente modelli di programmazione orientati agli oggetti, procedurali e 
  Per determinare il nome di una variabile si usa la funzione **type()** .
  I vari tip di dati in python sono:
  1. Numeric
-    1. integer 
-    2. float
+    1. integer (Memoria allocata generalmente 28 bytes)
+    2. float (Memoria allocata generalmente 24 bytes)
     3. complex number 
- 2. Boolean
+ 2. Boolean (Memoria allocata 28 bytes)
  3. Dictionary
  4. Set (è una conllezione di dati non ripetitivi e non ordinati)
  5. Sequence 
-    1. string 
+    1. string (Memoria allocata dimente se unicode (4 bytes per carattere) o ascii(49n byte che sarebbe un overhead + un byte per ogni carattere) )
     2. list
     3. tuples
 
