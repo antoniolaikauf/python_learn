@@ -2,7 +2,7 @@ import sys
 
 # Intero
 i = 1000000
-print(f"Intero (10): {sys.getsizeof(1000000)} bytes")
+print(f"Intero (10): {sys.getsizeof(i)} bytes")
 
 # Float
 f = 10.0
