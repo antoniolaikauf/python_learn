@@ -125,7 +125,7 @@ def factorial_recursive(n):
 print(factorial_recursive(5))
 
 # comprensione 
-
+# set
 comp=[x for x in range(5)]
 print(comp)
 
@@ -135,6 +135,13 @@ comp1=[x for x in data]
 print(comp1)
 
 data=[x for x in data if x % 4==0]
+print(data)
+
+
+# dizionari 
+number=[1,2,3,4,5,6,7]
+
+comp2={x:x**2 for x in number}
 print(comp2)
 
 # senza le comprensioni 
