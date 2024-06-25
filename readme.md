@@ -1,10 +1,12 @@
 # Python
 Python consente ai sui svilupptori di strutturare il loro codice in molti modi, i tre paradigmi (che si rifersice allo stile di scrittura del programma) in python sono :
-- **orientati agli oggetti** modello principale  (creazione di oggetti e classi)
+- **orientati agli oggetti** modello principale (creazione di oggetti e classi) questo paradigma inventato da Alan Kay
 - **procedurali** (si basa sulla creazione di funzioni)
 - **funzionali** (utilizzo di funzioni pure es. map, filter) 
 
 Python consente modelli di programmazione orientati agli oggetti, procedurali e funzionali
+
+Inoltre python aderisce al **MRO** Ordine di risoluzione dei metodi che determina l'esecuzione del flusso
 
 ## Ambiente  
  per creare un ambiente di lavoro si usa **py -m venv nome_ambiente**,
