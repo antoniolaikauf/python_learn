@@ -125,11 +125,11 @@ per modificare il messaggio di errore si usa **try** o **except** nel except si 
 ## Funzioni file
 Ci sono tre tipi di funzioni per gestire i file **open** **close** **with**
 
-- open 
-  1. reading 
+open 
+  - reading 
      - per leggere righe nel file si usa readlines 
-  2. creating
-  3. writing 
+  - creating
+  - writing 
      - per scrivere linee si usa il metodo writelines
 
 si può leggere e gestire i file in python in testo o in un formato binario 
