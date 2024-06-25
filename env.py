@@ -149,7 +149,3 @@ print(comp2)
 # for x in range(5):
 #     without_comp.append(x)
 # print(without_comp)
-
-list()
-
-'ciaoao'.re
