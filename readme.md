@@ -1,6 +1,10 @@
 # Python
 Python consente ai sui svilupptori di strutturare il loro codice in molti modi, i tre paradigmi (che si rifersice allo stile di scrittura del programma) in python sono :
 - **orientati agli oggetti** modello principale (creazione di oggetti e classi) questo paradigma inventato da Alan Kay
+i tre procedimenti per questo sono:
+   1. dichiarare una classe 
+   2. inizializare l'istanza
+   3. dichiarare l'istanza 
 - **procedurali** (si basa sulla creazione di funzioni)
 - **funzionali** (utilizzo di funzioni pure es. map, filter) 
 
