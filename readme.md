@@ -1,5 +1,8 @@
 # Python
-Python consente ai sui svilupptori di strutturare il loro codice in molti modi, consente modelli di programmazione **orientati agli oggetti** modello principale  (creazione di oggetti e classi), **procedurali** (si basa sulla creazione di funzioni) e **funzionali** (utilizzo di funzioni pure es. map, filter)
+Python consente ai sui svilupptori di strutturare il loro codice in molti modi, i tre paradigmi (che si rifersice allo stile di scrittura del programma) in python sono :
+- **orientati agli oggetti** modello principale  (creazione di oggetti e classi)
+- **procedurali** (si basa sulla creazione di funzioni)
+- **funzionali** (utilizzo di funzioni pure es. map, filter) 
 
 Python consente modelli di programmazione orientati agli oggetti, procedurali e funzionali
 
