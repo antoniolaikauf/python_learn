@@ -129,6 +129,14 @@ print(factorial_recursive(5))
 comp=[x for x in range(5)]
 print(comp)
 
+data = [2,3,5,8,11,13,17,19,23,29,31]
+
+comp1=[x for x in data]
+print(comp1)
+
+data=[x for x in data if x % 4==0]
+print(comp2)
+
 # senza le comprensioni 
 # without_comp= []
 # for x in range(5):
