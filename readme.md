@@ -164,3 +164,5 @@ per calcolare il tempo necessario per un algoritmo ad essere completato si usa l
 - https://realpython.com/python-conditional-statements/
 
 - https://it.wikipedia.org/wiki/Complessit%C3%A0_temporale complessità temporale 
+
+- https://www.knowledgehut.com/blog/programming/python-map-list-comprehension comprensione
