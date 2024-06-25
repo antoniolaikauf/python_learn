@@ -2,9 +2,9 @@
 Python consente ai sui svilupptori di strutturare il loro codice in molti modi, i tre paradigmi (che si rifersice allo stile di scrittura del programma) in python sono :
 - **orientati agli oggetti** modello principale (creazione di oggetti e classi) questo paradigma inventato da Alan Kay
 i tre procedimenti per questo sono:
-   1. dichiarare una classe 
-   2. inizializare l'istanza
-   3. dichiarare l'istanza 
+   - dichiarare una classe 
+   - inizializare l'istanza
+   - dichiarare l'istanza 
 - **procedurali** (si basa sulla creazione di funzioni)
 - **funzionali** (utilizzo di funzioni pure es. map, filter) 
 
@@ -37,16 +37,16 @@ Inoltre python aderisce al **MRO** Ordine di risoluzione dei metodi che determin
  Per determinare il nome di una variabile si usa la funzione **type()** .
  I vari tip di dati in python sono:
  1. Numeric
-    1. integer (Memoria allocata generalmente 28 bytes)
-    2. float (Memoria allocata generalmente 24 bytes)
-    3. complex number 
+    - integer (Memoria allocata generalmente 28 bytes)
+    - float (Memoria allocata generalmente 24 bytes)
+    - complex number 
  2. Boolean (Memoria allocata 28 bytes)
  3. Dictionary
  4. Set (è una conllezione di dati non ripetitivi e non ordinati)
  5. Sequence 
-    1. string (Memoria allocata dimente se unicode (4 bytes per carattere) o ascii(49n byte che sarebbe un overhead + un byte per ogni carattere) )
-    2. list
-    3. tuples
+    - string (Memoria allocata dimente se unicode (4 bytes per carattere) o ascii(49n byte che sarebbe un overhead + un byte per ogni carattere) )
+    - list
+    - tuples
 
 Per cambiare il tipo di dato python ha due metodi **implicito** ed **esplicito** 
 
