@@ -79,17 +79,26 @@ permette di organizzare e di disporre i suoi dati per eseguire operazioni su di 
 Python dispone di 4 stutture dati:
 
 1. tuple 
-  - possono contenere qualsiasi tipo di dato ma la differesza con il set è che non si possono modificare i valori dentro ai tuple quindi sono immutabili 
+   - possono contenere qualsiasi tipo di dato ma la differesza con il set è che non si possono modificare i valori dentro ai tuple quindi sono immutabili 
 2. elenco 
    - possono contenere qualsiasi tipo di dato 
 3. dizionario 
    - si basano sulle key e non sull'index, all'interno non ci possno essere due key uguali 
 4. set 
-  - i set non permettono di avere valori duplicati, con i set si possono fare diverse operazione matematiche tra due set come l'unione l'intersezione e la differenza tra due insiemi 
+   - i set non permettono di avere valori duplicati, con i set si possono fare diverse operazione matematiche tra due set come l'unione l'intersezione e la differenza tra due insiemi 
 
 inoltre pyhton permette di creare la propria struttura dati come **Stack**, **Queue**, **Tree**
 
 La differenza tra quali strutture di dati scegliere va in base alla **dimensione**, **velocità**, **prestazione**
+
+### Le comprensioni 
+Le comprensioni in python sono un modo per creare una nuova sequenza da una sequenza gia esistente o crearen uno nuovo direttamente
+**[expression for variable_name in iterable]**
+esistono quattro tipi di comprensione:
+1. comprensione di liste 
+2. comprensione di dizionari
+3. comprensioni di set
+4. comprensioni di generatori 
 
 ## Errori
 

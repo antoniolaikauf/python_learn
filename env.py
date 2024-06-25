@@ -123,3 +123,14 @@ def factorial_recursive(n):
     else:
         return 1
 print(factorial_recursive(5))
+
+# comprensione 
+
+comp=[x for x in range(5)]
+print(comp)
+
+# senza le comprensioni 
+# without_comp= []
+# for x in range(5):
+#     without_comp.append(x)
+# print(without_comp)
