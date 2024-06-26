@@ -1,10 +1,18 @@
 # Python
 Python consente ai sui svilupptori di strutturare il loro codice in molti modi, i tre paradigmi (che si rifersice allo stile di scrittura del programma) in python sono :
-- **orientati agli oggetti** modello principale (creazione di oggetti e classi) questo paradigma inventato da Alan Kay
-i tre procedimenti per questo sono:
-   - dichiarare una classe 
-   - inizializare l'istanza
-   - dichiarare l'istanza 
+- **orientati agli oggetti** modello principale (creazione di oggetti e classi) questo paradigma inventato da Alan Kay.
+
+  -  Le quattro proprietà per OOP sono:
+     - Astrazzione
+     - Ereditarietà 
+     - incapsulamento
+     - Polimorfismo
+
+   - i tre procedimenti per questo sono:
+       - dichiarare una classe 
+       - inizializare l'istanza
+       - dichiarare l'istanza 
+
 - **procedurali** (si basa sulla creazione di funzioni)
 - **funzionali** (utilizzo di funzioni pure es. map, filter) 
 
@@ -53,7 +61,7 @@ Per cambiare il tipo di dato python ha due metodi **implicito** ed **esplicito**
 ## Funzione di Print()
 la funzione di print ha delle keywords che possono essere validate come argomento aggiuntivo, questi possono essere **object**, **sep**, **end**, esiste anche un file dove vengono stampati i valori, quello di default è **STD** 
 
-es Set. 
+es Sep. 
 
 ![](img/Screenshot%202024-06-15%20170155.png)
 

@@ -154,4 +154,4 @@ print(comp2)
 # class 
 
 class MyClass:
-    pass # pass significa che non deve essere eseguito nulla, quindi python capisce che non voglio ancora fare niente con questa classe  
+    pass # pass significa che non deve essere eseguito nulla, quindi python capisce che non voglio ancora fare niente con questa classe
