@@ -1,3 +1,5 @@
+from abc import ABC # utilizzato per abstract delle classi https://docs.python.org/3/library/abc.html 
+
 class A:
    def __init__(self, c):
        print("---------Inside class A----------")
