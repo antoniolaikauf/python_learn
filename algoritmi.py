@@ -83,3 +83,22 @@ def balance(br):
     return Cbalance
 
 print(balance(point))
+
+
+def create_arry(num):
+    array=[x for x in range(1,num)]
+    return array
+
+array_num=create_arry(11)
+import math
+def search(num, args):
+    start=0
+    high=len(args) -1
+    while start<=high:
+        middle =math.floor((start + high) / 2)  # formula per calcolare il punto medio di un range  (minimo + massimo) / 2 
+        if num == args[middle]: return True
+        elif num > args[middle]: start= middle + 1
+        elif num < args[middle]: high= middle -1
+    return False 
+
+print(search(1, array_num))
