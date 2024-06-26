@@ -4,7 +4,7 @@ Python consente ai sui svilupptori di strutturare il loro codice in molti modi, 
 
   -  Le quattro proprietà per OOP sono:
      - Astrazzione
-     - Ereditarietà 
+     - Ereditarietà (sia singola che multipla), esistono funzioni utili quando si lavora con l'ereditarietà **issubclass()** e **isinstance()** **super()**
      - incapsulamento
      - Polimorfismo
 

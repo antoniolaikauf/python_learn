@@ -149,9 +149,3 @@ print(comp2)
 # for x in range(5):
 #     without_comp.append(x)
 # print(without_comp)
-
-
-# class 
-
-class MyClass:
-    pass # pass significa che non deve essere eseguito nulla, quindi python capisce che non voglio ancora fare niente con questa classe
