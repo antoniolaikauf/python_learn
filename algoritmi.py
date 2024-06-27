@@ -85,6 +85,9 @@ def balance(br):
 print(balance(point))
 
 
+# algoritmo ricerca binaria passi in log base 2 di n nell'esempio sotto n è 10 quindi 3,33
+
+
 def create_arry(num):
     array=[x for x in range(1,num)]
     return array

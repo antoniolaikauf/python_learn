@@ -169,6 +169,8 @@ per calcolare il tempo necessario per un algoritmo ad essere completato si usa l
    - negli algoritmi con complessità esponenziale, i tempi di esecuzione crescono esponenzialmente rispetto all'input  es. se avessi tre funzioni che come output possono avere 3 valori output sarebbe 3**3 quindi 27 possibili combinazioni 
 
 
+Per rappresentare il miglior caso di un algoritmo si usa **L'omega Ω** 
+
 
 # Links 
 - https://docs.python.org/3/library/functions.html funzioni di python 
