@@ -105,3 +105,22 @@ def search(num, args):
     return False 
 
 print(search(1, array_num))
+
+
+# buble sort 
+
+random_array=[3,5,9,8,2,1,10,24,12]
+
+def sort_array(arg):
+    length=len(arg)-1
+    for y in range(length): 
+      for i in range(length - y): #meno y cosi che diminuisce le iterazioni essendo che ad ogni ciclo ci sarà almeno un elemento ordinato
+        if arg[i] > arg[i + 1]: 
+            arg[i], arg[i+1]=arg[i+1], arg[i]
+    return arg
+
+print(sort_array(random_array))
+
+
+ # for y,ValueY in enumerate(arg[i:]):
+        #     if arg[i]>arg[y]: arg
