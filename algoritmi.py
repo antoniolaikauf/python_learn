@@ -110,23 +110,25 @@ print(search(1, array_num))
 # buble sort 
 
 random_array=[3,5,9,8,2,1,10,24,12]
+random_array1=[1,2,3,4]
 
 '''
 ogni iterazione si fa (n-1) perchè ad ogni iterazione viene sistemata almeno
  un elemento quindi non ha senso fare un loop ancora su tutti gli elementi 
  nella seconda iterazione sarà (n-2) e csi via 
+ count per il controllo se l'array è gia ordinato cosi che non si faccia cicli senza senso 
 '''
 def sort_array(arg):
     length=len(arg)-1
+    count=0
     for y in range(length): 
       for i in range(length - y):
-
-        if arg[i] > arg[i + 1]: 
+        if arg[i] > arg[i + 1]:
+            count+=1 
             arg[i], arg[i+1]=arg[i+1], arg[i]
+      if count==0:
+        return True
     return arg
 
 print(sort_array(random_array))
-
-
- # for y,ValueY in enumerate(arg[i:]):
-        #     if arg[i]>arg[y]: arg
+print(sort_array(random_array1))
