@@ -111,10 +111,16 @@ print(search(1, array_num))
 
 random_array=[3,5,9,8,2,1,10,24,12]
 
+'''
+ogni iterazione si fa (n-1) perchè ad ogni iterazione viene sistemata almeno
+ un elemento quindi non ha senso fare un loop ancora su tutti gli elementi 
+ nella seconda iterazione sarà (n-2) e csi via 
+'''
 def sort_array(arg):
     length=len(arg)-1
     for y in range(length): 
-      for i in range(length - y): #meno y cosi che diminuisce le iterazioni essendo che ad ogni ciclo ci sarà almeno un elemento ordinato
+      for i in range(length - y):
+
         if arg[i] > arg[i + 1]: 
             arg[i], arg[i+1]=arg[i+1], arg[i]
     return arg
