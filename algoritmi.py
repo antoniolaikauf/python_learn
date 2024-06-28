@@ -132,3 +132,18 @@ def sort_array(arg):
 
 print(sort_array(random_array))
 print(sort_array(random_array1))
+
+
+# ottenere indirizzo memoria 
+
+import ctypes
+
+variabile='hello word'
+address=int(id(variabile))
+
+print(address)
+
+value=ctypes.cast(address, ctypes.py_object).value
+print(value)
+print(hex(address))
+

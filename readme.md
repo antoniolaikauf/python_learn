@@ -147,6 +147,7 @@ si può leggere e gestire i file in python in testo o in un formato binario
  - random: scegliere random scelte 
  - pdb: per debuggare 
  - abc:  utilizzato per abstract delle classi
+ - ctypes: Fornisce tipi di dati compatibili con il C
 
 
 ## Algoritmi
