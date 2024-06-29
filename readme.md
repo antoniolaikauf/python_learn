@@ -196,3 +196,5 @@ Per rappresentare il miglior caso di un algoritmo si usa **L'omega Ω**
 - https://it.wikipedia.org/wiki/Complessit%C3%A0_temporale complessità temporale 
 
 - https://www.knowledgehut.com/blog/programming/python-map-list-comprehension comprensione
+
+- https://www.geeksforgeeks.org/python-oops-concepts/ OOP
