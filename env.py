@@ -149,3 +149,7 @@ print(comp2)
 # for x in range(5):
 #     without_comp.append(x)
 # print(without_comp)
+
+# in python non esesite una funzione per invertire la parola si usa questo metodo 
+parola='ciao'
+print(parola[::-1])

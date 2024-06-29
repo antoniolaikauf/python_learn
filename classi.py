@@ -31,6 +31,7 @@ un metdo con @abstractmethod e una funzione/metodo come method non può essere c
 usa un istanza di un figlio che sovvrascrive quel metodo 
 '''
 
+
 class child(abstract):
     def method(self):
         return 'funziono con il figlio e se sono sovrascritto'
