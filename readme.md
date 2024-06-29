@@ -10,6 +10,10 @@ Python consente ai sui svilupptori di strutturare il loro codice in molti modi, 
        - ereditarietà multipla (in cui il figlio eredita da due classi diverse)
        - livello multiplo di ereditarietà (in cui una classe figlia eredita da un padre, ma fa anche da padre per un altra classe )
        - eredità gerarchica che è come un tree 
+       
+       se si volesse vedere la gerarchia della classe print(nomeClasse.mro()).
+       invece per altri dettagli print(help(nomeClasse))
+
      - incapsulamento
      - Polimorfismo
 

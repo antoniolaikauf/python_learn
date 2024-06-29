@@ -38,5 +38,9 @@ class child(abstract):
 child1=child()
 print(child1.method())
 
+print(child.mro())
+print(help(child))
+
+
 es=abstract()
 print(es.method())
