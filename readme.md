@@ -22,8 +22,8 @@ Python consente ai sui svilupptori di strutturare il loro codice in molti modi, 
        - inizializare l'istanza
        - dichiarare l'istanza 
 
-- **procedurali** (si basa sulla creazione di funzioni)
-- **funzionali** (utilizzo di funzioni pure es. map, filter) 
+- **procedurali** si basa sulla creazione di funzioni
+- **funzionali** utilizzo di funzioni pure es. map, filter, queste funziioni è come se vivessero dentro alle variabili e quindi si richiamano come .nomeFunzione()
 
 Python consente modelli di programmazione orientati agli oggetti, procedurali e funzionali
 
@@ -31,7 +31,7 @@ Inoltre python aderisce al **MRO** Ordine di risoluzione dei metodi che determin
 
 Con python non hai bisogno di allocare la memoria per una variabile con maloc e dopo liberarla con free perchè lo fa gia in automatico perchè è un linguaggio **high-level languages**, questo ricade sulle performance perchè python ha piu funzioni piu caratteristiche quindi ricade sulle performance rispetto a **low-level languages**.
 
-Un altro beneficio di python è che non ha il problema di integer overflow essendo che la memoria viene gestita automaticamente da pyhton, se noi facessimo un operazione in c in cui il numero supera i 4 miliardi avremmo l'integer overflow che sarebbe che il risultato dell'opearazione sono numeri randomici 
+Un altro beneficio di python è che non ha il problema di **integer overflow** essendo che la memoria viene gestita automaticamente da pyhton, se noi facessimo un operazione in c in cui il numero supera i 4 miliardi avremmo l'integer overflow che sarebbe che il risultato dell'opearazione sono numeri randomici 
 
 ## Ambiente  
  per creare un ambiente di lavoro si usa **py -m venv nome_ambiente**,
