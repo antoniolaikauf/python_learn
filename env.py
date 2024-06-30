@@ -153,3 +153,7 @@ print(comp2)
 # in python non esesite una funzione per invertire la parola si usa questo metodo 
 parola='ciao'
 print(parola[::-1])
+
+# stampa i 50 numeri dopo la virgola e f dopo 50 significa trattameli come float
+num=1/3
+print(f'{num:.50f}')

@@ -29,7 +29,9 @@ Python consente modelli di programmazione orientati agli oggetti, procedurali e 
 
 Inoltre python aderisce al **MRO** Ordine di risoluzione dei metodi che determina l'esecuzione del flusso.
 
-Con python non hai bisogno di allocare la memoria per una variabile con maloc e dopo liberarla con free perchè lo fa gia in automatico perchè è un linguaggio **high-level languages**, questo ricade sulle performance perchè python ha piu funzioni piu caratteristiche quindi ricade sulle performance rispetto a **low-level languages** 
+Con python non hai bisogno di allocare la memoria per una variabile con maloc e dopo liberarla con free perchè lo fa gia in automatico perchè è un linguaggio **high-level languages**, questo ricade sulle performance perchè python ha piu funzioni piu caratteristiche quindi ricade sulle performance rispetto a **low-level languages**.
+
+Un altro beneficio di python è che non ha il problema di integer overflow essendo che la memoria viene gestita automaticamente da pyhton, se noi facessimo un operazione in c in cui il numero supera i 4 miliardi avremmo l'integer overflow che sarebbe che il risultato dell'opearazione sono numeri randomici 
 
 ## Ambiente  
  per creare un ambiente di lavoro si usa **py -m venv nome_ambiente**,
