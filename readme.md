@@ -29,7 +29,7 @@ Python consente modelli di programmazione orientati agli oggetti, procedurali e 
 
 Inoltre python aderisce al **MRO** Ordine di risoluzione dei metodi che determina l'esecuzione del flusso.
 
-Con python non hai bisogno di allorace la memoria per una variabile con maloc e dopo liberarla con free perchè lo fa gia in automatico perchè è un linguaggio **high-level languages**, questo ricade sulle performance perchè python ha piu funzioni piu caratteristiche quindi ricade sulle performance rispetto a **low-level languages** 
+Con python non hai bisogno di allocare la memoria per una variabile con maloc e dopo liberarla con free perchè lo fa gia in automatico perchè è un linguaggio **high-level languages**, questo ricade sulle performance perchè python ha piu funzioni piu caratteristiche quindi ricade sulle performance rispetto a **low-level languages** 
 
 ## Ambiente  
  per creare un ambiente di lavoro si usa **py -m venv nome_ambiente**,
