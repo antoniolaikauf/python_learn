@@ -173,7 +173,9 @@ si può leggere e gestire i file in python in testo o in un formato binario
  - abc:  utilizzato per abstract delle classi
  - ctypes: Fornisce tipi di dati compatibili con il C
  - cs50: libreria classe cs50 harvard
- - sys: Principalmente lo si usa per accedere agli argomenti del terminale. 
+ - sys: Principalmente lo si usa per accedere agli argomenti del terminale.
+ - csv: manipola data o file 
+ - os: permette di accedere al sistema operativo
 
 
 ## Algoritmi
