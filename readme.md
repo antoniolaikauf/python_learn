@@ -65,6 +65,9 @@ Inoltre python aderisce al **MRO** Ordine di risoluzione dei metodi che determin
     - list
     - tuples
 
+A differenza di altri linguaggi che hanno piu tipi di dati in base al valore delle variabile (es in c si hanno anche i double) in python non c'è bisogno perchè fornisce gia lui una grande quantita di bit a disposizione della variabile
+
+
 Per cambiare il tipo di dato python ha due metodi **implicito** ed **esplicito** 
 
 ## Funzione di Print()
@@ -157,6 +160,7 @@ si può leggere e gestire i file in python in testo o in un formato binario
  - pdb: per debuggare 
  - abc:  utilizzato per abstract delle classi
  - ctypes: Fornisce tipi di dati compatibili con il C
+ - import cs50: libreria classe cs50 harvard
 
 
 ## Algoritmi

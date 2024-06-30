@@ -1,4 +1,5 @@
 import sys
+
 # Intero
 i = 1000000
 print(f"Intero (10): {sys.getsizeof(i)} bytes")
