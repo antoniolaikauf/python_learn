@@ -158,6 +158,7 @@ print(parola[::-1])
 num=1/3
 print(f'{num:.50f}')
 
+
 def main():
     for i in range(altezza()):
         for y in range(i):

@@ -77,7 +77,9 @@ A differenza di altri linguaggi che hanno piu tipi di dati in base al valore del
 Per cambiare il tipo di dato python ha due metodi **implicito** ed **esplicito** 
 
 ## Funzione di Print()
-la funzione di print ha delle keywords che possono essere validate come argomento aggiuntivo, questi possono essere **object**, **sep**, **end**, esiste anche un file dove vengono stampati i valori, quello di default è **STD** 
+la funzione di print ha delle keywords che possono essere validate come argomento aggiuntivo, questi possono essere **object**, **sep**, **end**
+
+il valore di default è '\n' in end e la keyword end permette di sovrascrivere '\n' in modo tale che si possa avere un output orizzontale 
 
 es Sep. 
 
@@ -170,7 +172,8 @@ si può leggere e gestire i file in python in testo o in un formato binario
  - pdb: per debuggare 
  - abc:  utilizzato per abstract delle classi
  - ctypes: Fornisce tipi di dati compatibili con il C
- - import cs50: libreria classe cs50 harvard
+ - cs50: libreria classe cs50 harvard
+ - sys: Principalmente lo si usa per accedere agli argomenti del terminale. 
 
 
 ## Algoritmi
