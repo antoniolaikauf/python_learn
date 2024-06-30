@@ -148,6 +148,10 @@ per modificare il messaggio di errore si usa **try** o **except** nel except si 
 
 ![](img/Screenshot%202024-06-21%20144617.png)
 
+Questa immagine fa riferimento agli errori e il percorso dove trovare l'errore, in questo esempio si parte dalla funzione main in riga 171 per poi passare alla funzione altezza nel loop a riga 162 e per poi passare a riga 168 nell'input per poi dire cosa ha causato l'errore
+
+![](img/Screenshot%202024-06-30%20155837.png)
+
 ## Funzioni file
 Ci sono tre tipi di funzioni per gestire i file **open** **close** **with**
 
