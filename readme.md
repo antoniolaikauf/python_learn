@@ -31,7 +31,9 @@ Inoltre python aderisce al **MRO** Ordine di risoluzione dei metodi che determin
 
 Con python non hai bisogno di allocare la memoria per una variabile con maloc e dopo liberarla con free perchè lo fa gia in automatico perchè è un linguaggio **high-level languages**, questo ricade sulle performance perchè python ha piu funzioni piu caratteristiche quindi ricade sulle performance rispetto a **low-level languages**.
 
-Un altro beneficio di python è che non ha il problema di **integer overflow** essendo che la memoria viene gestita automaticamente da pyhton, se noi facessimo un operazione in c in cui il numero supera i 4 miliardi avremmo l'integer overflow che sarebbe che il risultato dell'opearazione sono numeri randomici 
+Un altro beneficio di python è che non ha il problema di **integer overflow** essendo che la memoria viene gestita automaticamente da pyhton, se noi facessimo un operazione in c in cui il numero supera i 4 miliardi avremmo l'integer overflow che sarebbe che il risultato dell'opearazione sono numeri randomici. 
+
+Una convenzione di python è quella di utilizzare main per le le funzioni in cui si evocano tutte le funzioni all'interno di main e la funzione main si evoca alla fine del tuo codice in modo tale che la funzione main stia in cima al codice cosi che si possa vedere la parte importante del codice, ma un altra questione importante è che se senza la funzione main se il codice sarebbe importato come modulo quel codice verrebbe eseguito cosa che con la funzione main e una condizione non succede 
 
 ## Ambiente  
  per creare un ambiente di lavoro si usa **py -m venv nome_ambiente**,
