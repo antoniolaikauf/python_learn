@@ -188,7 +188,9 @@ nell'immagine i due argomenti sono a e b e l'espressione ne ha solo una a * b
 
 ## databese 
 Per usufruire di un database bisogna aver istallato **sqlite3**, se si volesse istallarlo **sudo apt install sqlite3** questo è il comnado per l'istallazione se si usa ubuntu, e nel terminale **sqlite3 nomeDatabase.db** in modo tale da iniziare la creazione del tuo database.
-Si hanno delle funzioni base in mysql AVG, COUNT, DISTINCT, LOWER, MAX, MIN, UPPER e le keywords sono WHERE, LIKE, ORDER BY, LIMMIT, GROUP BY 
+Si hanno delle funzioni base in sqlite AVG, COUNT, DISTINCT, LOWER, MAX, MIN, UPPER e le keywords sono WHERE, LIKE, ORDER BY, LIMMIT, GROUP BY.
+
+Una caratteristica molto importante è la creazione di **indexes** che sono strutture dati che aumentano l'efficienza nell accedere alle tabele nel database (permettono di aumentare la velocità delle query)
 
 ## Algoritmi
 
