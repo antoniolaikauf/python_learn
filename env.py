@@ -172,3 +172,9 @@ def altezza():
       if value > 0: return value 
 
 main()
+
+
+# lambda 
+
+lam=lambda a,b: a*b
+print(lam(2,3))

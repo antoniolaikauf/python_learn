@@ -164,7 +164,15 @@ open
   - writing 
      - per scrivere linee si usa il metodo writelines
 
-si può leggere e gestire i file in python in testo o in un formato binario 
+si può leggere e gestire i file in python in testo o in un formato binario
+
+## Lambda 
+
+la funzione lambda è una funzione piu compatta e anonima (cioè che non bisogna dare un nome), una funzione lambda può prendere qualsiasi argomento ma può avere solo una espressione
+
+![](img/Screenshot%202024-07-01%20094835.png)
+
+nell'immagine i due argomenti sono a e b e l'espressione ne ha solo una a * b
 
 ## Librerie
  - time: calcolare il tempo di eecuzione 
