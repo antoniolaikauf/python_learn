@@ -186,6 +186,9 @@ nell'immagine i due argomenti sono a e b e l'espressione ne ha solo una a * b
  - os: permette di accedere al sistema operativo
 
 
+## databese 
+Per usufruire di un database bisogna aver istallato **sqlite3**, se si volesse istallarlo **sudo apt install sqlite3** questo è il comnado per l'istallazione se si usa ubuntu, e nel terminale **sqlite3 nomeDatabase.db** in modo tale da iniziare la creazione del tuo database 
+
 ## Algoritmi
 
 Possono avere **tempo costante** in cui non bisogna iterare su nessun componente e quindi il tempo non cambia, **tempo lineare** in cui il tempo cresce in base all'input, **tempo logaritmo** il tempo necessario per eseguire un algoritmo cresce in modo logaritmico rispetto alle dimensioni dell'input.
