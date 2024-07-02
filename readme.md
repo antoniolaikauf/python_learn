@@ -184,6 +184,7 @@ nell'immagine i due argomenti sono a e b e l'espressione ne ha solo una a * b
  - sys: Principalmente lo si usa per accedere agli argomenti del terminale.
  - csv: manipola data o file 
  - os: permette di accedere al sistema operativo
+ - flask: framework back-end
 
 
 ## databese 
