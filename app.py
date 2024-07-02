@@ -5,4 +5,5 @@ app= Flask(__name__)
 
 @app.route("/")
 def default():
-    return " hello word "
+    return render_template("index.html") # file index deve sempre stare dentro ad una cartella chiamata templates
+
