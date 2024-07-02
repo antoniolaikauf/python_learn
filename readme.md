@@ -192,6 +192,8 @@ Si hanno delle funzioni base in sqlite AVG, COUNT, DISTINCT, LOWER, MAX, MIN, UP
 
 Una caratteristica molto importante è la creazione di **indexes** che sono strutture dati che aumentano l'efficienza nell accedere alle tabele nel database (permettono di aumentare la velocità delle query)
 
+un framework usato per il database quindi back-end è **flask** o **Django**, per usare flask prima bisognerebbe installarlo con **pip install flask** e se si usa linux il comando da eseguire è **sudo apt install python3-pip** una volta fatto questo bisogna fornire una **FLASK APP** che sarebbe il tuo file, il comando è export FLASK_APP=[YOUR_APP_FILE].py e dopo per attivare il server **flask run**
+
 ## Algoritmi
 
 Possono avere **tempo costante** in cui non bisogna iterare su nessun componente e quindi il tempo non cambia, **tempo lineare** in cui il tempo cresce in base all'input, **tempo logaritmo** il tempo necessario per eseguire un algoritmo cresce in modo logaritmico rispetto alle dimensioni dell'input.
