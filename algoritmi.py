@@ -148,3 +148,14 @@ value=ctypes.cast(address, ctypes.py_object).value
 print(value)
 print(hex(address))
 
+
+def factorial(n):
+    combination=1
+    for i in range(1,n+1):
+        combination*=i
+    return combination
+
+print(factorial(48))
+
+
+

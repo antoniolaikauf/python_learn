@@ -178,3 +178,20 @@ main()
 
 lam=lambda a,b: a*b
 print(lam(2,3))
+
+timeA=time.time()
+num=10
+combination=[]
+for f in range(num):
+    for s in range(num):
+        for t in range(num):
+            for fo in range(num):
+                combination.append(str(s) + str(f) + str(t) + str(fo))
+print(round(time.time() - timeA, 4))
+print(len(combination))
+print(combination[0], combination[-1])
+
+'''
+tutte le possibili combinazioni per trovare una combinazione a 4 cifre e il tempo necessario per completare 
+l'algoritmo O(n**4)
+'''
