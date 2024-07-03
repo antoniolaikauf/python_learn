@@ -174,7 +174,13 @@ la funzione lambda è una funzione piu compatta e anonima (cioè che non bisogna
 
 nell'immagine i due argomenti sono a e b e l'espressione ne ha solo una a * b
 
-## Librerie
+
+
+## modelli
+I modelli permettono di fare cose piu potenti a python, sono blocchi di codice che aggiungono funzionalita al tuo codice cosi che non hai bisogno di ricustruire sempre ogni cosa.
+
+La sintassi per utilizzare un modulo è import, se un modello non è presente nella libreria standard chiamata built in module allora bisogna installare quel modello grazie a **pip**
+
  - time: calcolare il tempo di eecuzione 
  - random: scegliere random scelte 
  - pdb: per debuggare 
@@ -185,6 +191,7 @@ nell'immagine i due argomenti sono a e b e l'espressione ne ha solo una a * b
  - csv: manipola data o file 
  - os: permette di accedere al sistema operativo
  - flask: framework back-end
+ - math: operazioni matematiche 
 
 
 ## databese 
