@@ -1,5 +1,6 @@
 # Python
-Python consente ai sui svilupptori di strutturare il loro codice in molti modi, i tre paradigmi (che si rifersice allo stile di scrittura del programma) in python sono :
+
+Python è un linguaggio molto popolare grazie alla sua varietà di pacchetti open-source, inoltre consente ai sui svilupptori di strutturare il loro codice in molti modi, i tre paradigmi (che si rifersice allo stile di scrittura del programma) in python sono :
 - **orientati agli oggetti** modello principale (creazione di oggetti e classi) questo paradigma inventato da Alan Kay.
 
   -  Le quattro proprietà per OOP sono:
@@ -191,7 +192,10 @@ La sintassi per utilizzare un modulo è import, se un modello non è presente ne
  - csv: manipola data o file 
  - os: permette di accedere al sistema operativo
  - flask: framework back-end
- - math: operazioni matematiche 
+ - math: operazioni matematiche
+ - pytorch, tensorflow, keras: per ML
+ - numpy: calcolo scientifico 
+ - pandas: lavorare e manipolare dati 
 
 
 ## databese 
@@ -200,7 +204,7 @@ Si hanno delle funzioni base in sqlite AVG, COUNT, DISTINCT, LOWER, MAX, MIN, UP
 
 Una caratteristica molto importante è la creazione di **indexes** che sono strutture dati che aumentano l'efficienza nell accedere alle tabele nel database (permettono di aumentare la velocità delle query)
 
-un framework usato per il database quindi back-end è **flask** o **Django**, per usare flask prima bisognerebbe installarlo con **pip install flask** e se si usa linux il comando da eseguire è **sudo apt install python3-pip** una volta fatto questo bisogna fornire una **FLASK APP** che sarebbe il tuo file, il comando è export FLASK_APP=[YOUR_APP_FILE].py e dopo per attivare il server **flask run**
+frameworks usato per il database quindi back-end è **flask** (è più un microframeworks) o **Django** (Django può essere usando anche per il front-end), per usare flask prima bisognerebbe installarlo con **pip install flask** e se si usa linux il comando da eseguire è **sudo apt install python3-pip** una volta fatto questo bisogna fornire una **FLASK APP** che sarebbe il tuo file, il comando è export FLASK_APP=[YOUR_APP_FILE].py e dopo per attivare il server **flask run**
 
 ## Algoritmi
 
