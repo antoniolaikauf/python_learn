@@ -179,7 +179,7 @@ nell'immagine i due argomenti sono a e b e l'espressione ne ha solo una a * b
 ## modelli
 I modelli permettono di fare cose piu potenti a python, sono blocchi di codice che aggiungono funzionalita al tuo codice cosi che non hai bisogno di ricustruire sempre ogni cosa.
 
-La sintassi per utilizzare un modulo è import, se un modello non è presente nella libreria standard chiamata built in module allora bisogna installare quel modello grazie a **pip**
+La sintassi per utilizzare un modulo è import, se un modello non è presente nella libreria standard chiamata built in module allora bisogna installare quel modello grazie a **pip**, ma qualsiasi file python può diventare un modello 
 
  - time: calcolare il tempo di eecuzione 
  - random: scegliere random scelte 
@@ -241,3 +241,5 @@ Per rappresentare il miglior caso di un algoritmo si usa **L'omega Ω**
 - https://www.knowledgehut.com/blog/programming/python-map-list-comprehension comprensione
 
 - https://www.geeksforgeeks.org/python-oops-concepts/ OOP
+
+- https://www.programiz.com/python-programming/modules moduli
