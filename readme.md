@@ -1,10 +1,10 @@
 # Python
 
 Python è un linguaggio molto popolare grazie alla sua varietà di pacchetti open-source, inoltre consente ai sui svilupptori di strutturare il loro codice in molti modi, i tre paradigmi (che si rifersice allo stile di scrittura del programma) in python sono :
-- **orientati agli oggetti** modello principale (creazione di oggetti e classi) questo paradigma inventato da Alan Kay.
+- **orientati agli oggetti** è il modello principale (creazione di oggetti e classi). Questo paradigma è stato inventato da Alan Kay.
 
   -  Le quattro proprietà per OOP sono:
-     - Astrazzione
+     - Astrazione
      - Ereditarietà (sia singola che multipla), esistono funzioni utili quando si lavora con l'ereditarietà **issubclass()** e **isinstance()** **super()**
      ci sono 4 tipi di ereditarietà:
        - ereditarietà semplice
@@ -15,26 +15,28 @@ Python è un linguaggio molto popolare grazie alla sua varietà di pacchetti ope
        se si volesse vedere la gerarchia della classe print(nomeClasse.mro()).
        invece per altri dettagli print(help(nomeClasse))
 
-     - incapsulamento
+     - Incapsulamento
      - Polimorfismo
 
-   - i tre procedimenti per questo sono:
+   - I tre procedimenti per questo sono:
        - dichiarare una classe 
        - inizializare l'istanza
        - dichiarare l'istanza 
 
-- **procedurali** si basa sulla creazione di funzioni
-- **funzionali** utilizzo di funzioni pure es. map, filter, queste funziioni è come se vivessero dentro alle variabili e quindi si richiamano come .nomeFunzione()
+- **Procedurali** si basa sulla creazione di funzioni
+- **Funzionali**  utilizzo di funzioni pure es. map, filter. Queste funzioni è come se vivessero dentro le variabili e quindi si richiamano come .nomeFunzione()
 
 Python consente modelli di programmazione orientati agli oggetti, procedurali e funzionali
 
 Inoltre python aderisce al **MRO** Ordine di risoluzione dei metodi che determina l'esecuzione del flusso.
 
-Con python non hai bisogno di allocare la memoria per una variabile con maloc e dopo liberarla con free (non esistono neanche i pointers) perchè lo fa gia in automatico perchè è un linguaggio **high-level languages**, questo ricade sulle performance perchè python ha piu funzioni piu caratteristiche quindi ricade sulle performance rispetto a **low-level languages**.
+Con python non hai bisogno di allocare la memoria per una variabile con malloc e poi liberarla con free (non esistono neanche i puntatori) perché lo fa già in automatico dato che è un **high-level language**. Questo ricade sulle performance perché Python ha più funzioni e caratteristiche rispetto a **low-level languages**.
 
-Un altro beneficio di python è che non ha il problema di **integer overflow** essendo che la memoria viene gestita automaticamente da pyhton, se noi facessimo un operazione in c in cui il numero supera i 4 miliardi avremmo l'integer overflow che sarebbe che il risultato dell'opearazione sono numeri randomici. 
+Un altro beneficio di Python è che non ha il problema di **integer overflow** poiché la memoria viene gestita automaticamente. Se facessimo un'operazione in C in cui il numero supera i 4 miliardi, avremmo l'integer overflow, che causerebbe risultati numerici errati.
 
-Una convenzione di python è quella di utilizzare main per le le funzioni in cui si evocano tutte le funzioni all'interno di main e la funzione main si evoca alla fine del tuo codice in modo tale che la funzione main stia in cima al codice cosi che si possa vedere la parte importante del codice, ma un altra questione importante è che se senza la funzione main se il codice sarebbe importato come modulo quel codice verrebbe eseguito cosa che con la funzione main e una condizione non succede 
+Una convenzione di Python è quella di utilizzare main per le funzioni e evocare tutte le funzioni all'interno di esso.
+La funzione main si evoca alla fine del tuo codice in modo tale che la funzione main stia in cima al codice, rendendo visibile la parte importante del codice.
+Un altro aspetto importante è che senza la funzione main, se il codice venisse importato come modulo, quel codice verrebbe eseguito cosache non succederebbe aggiungendo condizione.
 
 ## Ambiente  
  per creare un ambiente di lavoro si usa **py -m venv nome_ambiente**,
@@ -43,23 +45,23 @@ Una convenzione di python è quella di utilizzare main per le le funzioni in cui
  piu vecchia di una libreria , o se si volesse avere solo poche librerie
  essendo che nella globale ci sono tante librerie già installate )
  invece per attivare il tuo ambinete di lavoro bisogna attivare il file activate
- nella cartella script es. **.\enviroment\Scripts\Activate** se si volesse uscire invece
+ nella cartella script es. **.\enviroment\Scripts\Activate** se si volesse uscire, invece
  si scrive nel terminale **deactivate**
 
  ## Esecuzione codice 
- ci possono essere due metodo di eseguire il codice: uno da **direttamente dall IDE** l'altro tramite il **terminale** nel seguente modo: si scrive python e il nome del file python 
+ ci possono essere due metodi per eseguire il codice: uno direttamente **dall'IDE** e l'altro tramite il **terminale** nel seguente modo: si scrive python e il nome del file Python.
 
  ## Caratteristiche python 
- una delle caratteristiche di python è **l'indentazione** con lo spazio, se io scrivessi  print('cisidj') e questa linea di codice non è attaccata al lato sinistro e c'è dello spazio quando si esegue il codice uscirà un errore 
+una delle caratteristiche di Python è **l'indentazione** con lo spazio. Se scrivessi print('cisidj') e questa linea di codice non è allineata al lato sinistro e c'è dello spazio, quando si esegue il codice uscirà un errore. 
 
 ![](img/Screenshot%202024-06-15%20153450.png).
 
- Python per comunicare con il computer utilizza un tipo di codifica chiamato **unicode** cosi che il compilatore trasforma il codice in stringe di bit 0 o 1 
+Python per comunicare con il computer utilizza un tipo di codifica chiamato **Unicode**, così che il compilatore trasforma il codice in stringhe di bit 0 o 1.
 
  ## Data type 
  Un data type è un attributo associato a un pezzo di dato che dice al computer come interpetrare il suo valore.
- Per determinare il nome di una variabile si usa la funzione **type()** .
- I vari tip di dati in python sono:
+Per determinare il tipo di una variabile si usa la funzione **type()**.
+ I vari tip di dati in Python sono:
  1. Numeric
     - integer (Memoria allocata generalmente 28 bytes)
     - float (Memoria allocata generalmente 24 bytes)
@@ -78,7 +80,7 @@ A differenza di altri linguaggi che hanno piu tipi di dati in base al valore del
 Per cambiare il tipo di dato python ha due metodi **implicito** ed **esplicito** 
 
 ## Funzione di Print()
-la funzione di print ha delle keywords che possono essere validate come argomento aggiuntivo, questi possono essere **object**, **sep**, **end**
+ La funzione di print ha delle keywords che possono essere passate come argomenti aggiuntivi, queste possono essere **object**, **sep**, **end**
 
 il valore di default è '\n' in end e la keyword end permette di sovrascrivere '\n' in modo tale che si possa avere un output orizzontale 
 
@@ -92,7 +94,7 @@ es Sep.
 
 Gli operatori sono seguiti da **condizioni** che controllano il flow del tuo programma che decidono cosa eseguire o cosa non eseguire.
 
-Le condizioni potrebberro lavorare bene quando sono poche ma quando sono tante il codice inizia a diventare molto lungo e complesso quindi si usa **match** che è stato introdotto nella versione 3.10.
+Le condizioni potrebbero funzionare bene quando sono poche, ma quando sono tante, il codice inizia a diventare molto lungo e complesso, quindi si usa **match**, introdotto nella versione 3.10.
 
 Con match si possono combinare varie condizioni con l'operatore or 
 
@@ -109,7 +111,7 @@ Lo scopo dello scope è quello di proteggere la variabile, in modo che non venga
 
 Nelle funzioni si possono passare i parametri come tutti gli altri linguaggi di programmazione, ma se si volesse passare molti parametri al posto di crease un parametro per ogni elemento passato alla funzione si può usare *args, che avrà le proprietà dei tuple essendo un tuple 
 
-i due tipi di funzione possono essere tradizionali o pure, le funzioni pure sono funzioni che non cambiano o non hanno nessun effetto su variabili, data, set, oltre il suo proprio ambito es. se si avesse una variabile globale le funzioni pure non riuscirebbero a modificarla 
+i due tipi di funzione possono essere tradizionali o pure, le funzioni pure sono funzioni che non cambiano o non hanno nessun effetto su variabili, data, set, oltre il suo proprio ambito es. se si avesse una variabile globale, le funzioni pure non riuscirebbero a modificarla. 
 
 ## strutture dati 
 permette di organizzare e di disporre i suoi dati per eseguire operazioni su di esse. Queste strutture dati possono essere **Mutabili** o **Immutabili**.
@@ -127,7 +129,7 @@ Python dispone di 4 stutture dati:
 
 inoltre pyhton permette di creare la propria struttura dati come **Stack**, **Queue**, **Tree**
 
-La differenza tra quali strutture di dati scegliere va in base alla **dimensione**, **velocità**, **prestazione**
+La scelta delle strutture di dati dipende da  **dimensione**, **velocità**, **prestazione**.
 
 ### Le comprensioni 
 Le comprensioni in python sono un modo per creare una nuova sequenza da una sequenza gia esistente o crearen uno nuovo direttamente
@@ -219,14 +221,14 @@ per calcolare il tempo necessario per un algoritmo ad essere completato si usa l
 - tempo lineare 
    - negli algoritmi con complessità temporale lineare il tempo di esecuzione cresce in base alla grandezza dell'input es. cercare elementi dentro ad un array
 - tempo quadratico 
-   - negli algoritmi con complessità quadratica, i tempi di esecuzione crescono con il quadrato delle dimensioni dell'ingresso es. un ciclo dentro ad un altro ciclo ( un nested loop)
+   - negli algoritmi con complessità quadratica, i tempi di esecuzione crescono con il quadrato delle dimensioni dell'ingresso es. un ciclo dentro ad un altro ciclo ( un nested loop).
 - tempo logaritmico 
    - negli algoritmi con complessità logaritmica, i tempi di esecuzione creascono logaritmicamente con la dimensione dei dati di ingresso 
 - tempo esponenziale 
    - negli algoritmi con complessità esponenziale, i tempi di esecuzione crescono esponenzialmente rispetto all'input  es. se avessi tre funzioni che come output possono avere 3 valori output sarebbe 3**3 quindi 27 possibili combinazioni 
 
 
-Per rappresentare il miglior caso di un algoritmo si usa **L'omega Ω** 
+Per rappresentare il miglior caso di un algoritmo si usa **L'omega Ω**.
 
 
 # Links 
