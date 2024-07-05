@@ -76,7 +76,7 @@ Per determinare il tipo di una variabile si usa la funzione **type()**.
 
 A differenza di altri linguaggi che hanno piu tipi di dati in base al valore delle variabile (es in c si hanno anche i double) in python non c'è bisogno perchè fornisce gia lui una grande quantita di bit a disposizione della variabile.
 
-Quando si combinano cose insieme si formano le **espressioni** che sarebbe l'insieme di operandi e operatori  
+Quando si combinano cose insieme si formano le **espressioni** che sarebbe l'insieme di operandi e operatori, nelle espressioni sono valide **stringhe  + stringhe**, **stringhe operatore * numero**, **numero operatore numero** le altre come **stringhe + numero** causeranno un errore perchè python controlla il typo della variabile (type checking) è non si può fare la somma di un numero e di una stringa.
 
 
 Per cambiare il tipo di dato python ha due metodi **implicito** ed **esplicito** 
@@ -91,7 +91,7 @@ es Sep.
 ![](img/Screenshot%202024-06-15%20170155.png)
 
 ## Operatori 
-- operatori matematici  + - * / (la divisione ritorna sempre un float)
+- operatori matematici  +, -, *, **, %, / (la divisione ritorna sempre un float) lordine in cui vengon svolti sono **, % >> /, * >> +, -
 - operatori logici or and not 
 
 Gli operatori sono seguiti da **condizioni** che controllano il flow del tuo programma che decidono cosa eseguire o cosa non eseguire.

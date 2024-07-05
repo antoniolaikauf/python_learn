@@ -1,6 +1,6 @@
-# questionn=input('put verb: ')
-# print(f'i can {questionn} better then you')
-# print((questionn + ' ') * 5)
+questionn=input('put verb: ')
+print(f'i can {questionn} better then you')
+print((questionn + ' ') * 5)
 
 import math
 
