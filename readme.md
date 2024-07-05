@@ -62,7 +62,7 @@ Python per comunicare con il computer utilizza un tipo di codifica chiamato **Un
  Un data type è un attributo associato a un pezzo di dato che dice al computer come interpetrare il suo valore.
 Per determinare il tipo di una variabile si usa la funzione **type()**.
  I vari tip di dati in Python sono:
- 1. Numeric
+ 1. Numeric (sono intercambiabili come le stringhe)
     - integer (Memoria allocata generalmente 28 bytes)
     - float (Memoria allocata generalmente 24 bytes)
     - complex number 

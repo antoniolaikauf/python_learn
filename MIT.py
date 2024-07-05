@@ -3,6 +3,7 @@
 # print((questionn + ' ') * 5)
 
 import math
+
 '''
 algoritmo per indovinare la radice quadrata, all'inizio dovrai fornire il numero che pensi sia la radice quadrata di X
 se il numero non lo è allora si dovra utilizzare come guess l'output che si ha ottenuto fino a quando non diventa il numero che si avvicina piu possibile 
