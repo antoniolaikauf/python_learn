@@ -70,7 +70,7 @@ Per determinare il tipo di una variabile si usa la funzione **type()**.
  3. Dictionary
  4. Set (è una conllezione di dati non ripetitivi e non ordinati)
  5. Sequence 
-    - string (Memoria allocata dimente se unicode (4 bytes per carattere) o ascii(49n byte che sarebbe un overhead + un byte per ogni carattere) )
+    - string (Memoria allocata se unicode (4 bytes per carattere) o ascii(49n byte che sarebbe un overhead + un byte per ogni carattere)) le stringhe sono immutabili (quando si modifica una stringa python non modificherà quella stringa che hai salvato nella memoria ma creerà una nuova variabile associata a quel nome e la salverà nella memoria e l'altra variabile rimmarrà nella memoria)
     - list
     - tuples
 
