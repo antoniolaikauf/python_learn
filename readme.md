@@ -74,7 +74,9 @@ Per determinare il tipo di una variabile si usa la funzione **type()**.
     - list
     - tuples
 
-A differenza di altri linguaggi che hanno piu tipi di dati in base al valore delle variabile (es in c si hanno anche i double) in python non c'è bisogno perchè fornisce gia lui una grande quantita di bit a disposizione della variabile
+A differenza di altri linguaggi che hanno piu tipi di dati in base al valore delle variabile (es in c si hanno anche i double) in python non c'è bisogno perchè fornisce gia lui una grande quantita di bit a disposizione della variabile.
+
+Quando si combinano cose insieme si formano le **espressioni** che sarebbe l'insieme di operandi e operatori  
 
 
 Per cambiare il tipo di dato python ha due metodi **implicito** ed **esplicito** 
