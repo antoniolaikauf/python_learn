@@ -89,7 +89,7 @@ es Sep.
 ![](img/Screenshot%202024-06-15%20170155.png)
 
 ## Operatori 
-- operatori matematici  + - * / 
+- operatori matematici  + - * / (la divisione ritorna sempre un float)
 - operatori logici or and not 
 
 Gli operatori sono seguiti da **condizioni** che controllano il flow del tuo programma che decidono cosa eseguire o cosa non eseguire.
