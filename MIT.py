@@ -17,6 +17,34 @@ if flag: string= '-' + string
 print(string)
 
 '''
+trasformazione numero decimale in binario 
+'''
+
+x = 0.625
+p = 0
+# trovare p
+while ((2**p) * x) % 1 != 0:
+    p += 1
+#convertire in binario
+num = int(x * (2**p))
+result = ''
+if num == 0:
+    result = '0'
+while num > 0:
+    result = str(num % 2) + result
+    num = num // 2
+# aggiungere 0
+for i in range(p - len(result)):
+    result = '0' + result
+# Compone la stringa binaria frazionaria
+result = '0.' + result
+
+print(f'{p} è il numero corretto')
+print('{} rappresentazione binario {}'.format(x, result))
+
+
+
+'''
 floating point error
 '''
 i=0
