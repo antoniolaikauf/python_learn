@@ -160,7 +160,7 @@ Questa immagine fa riferimento agli errori e il percorso dove trovare l'errore, 
 ![](img/Screenshot%202024-06-30%20155837.png)
 
 
-In python esiste l'errore chiamato **floating point error** in cui rende difficile le comparazioni tra numeri con la virgola 
+In python esiste l'errore chiamato **floating point error** in cui rende difficile le comparazioni tra numeri con la virgola, questo perchè per il computer è più facile convertire numeri che sono in base 10 in base 2 
 
 ![](img/Screenshot%202024-07-07%20112422.png)
 
