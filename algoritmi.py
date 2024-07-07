@@ -38,11 +38,13 @@ else:print('{} root of {}'.format(y,guess))
 guessB=54321
 start=0
 high= guessB
-while start<=guessB:
-    middle = (high + start) // 2
-    if middle**2 == guessB: print('trovato',middle);break
-    if middle**2 < guessB: start = (high // 2) - 1
-    if middle**2 > guessB: high= (high // 2) + 1
+epsilonB=1 #range
+middle = (high + start) / 2.0
+while (middle**2) - guessB <= epsilonB:
+    if middle**2 < guessB: start = middle 
+    else: high= middle 
+    middle = (high + start) / 2.0
+print(middle)
 
 
 
