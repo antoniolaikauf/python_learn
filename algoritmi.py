@@ -21,11 +21,10 @@ algoritmo approssimato/approximate algorithm le performance di questo algoritmo 
 parametri: al range rappresentato come epsilon e l'incremento più è grande il range più sarà veloce ma meno accurato, più 
 l'incremento sarà piccolo più l'algoritmo sarà accurato 
 '''
-guess=7654326
-rangeGuess=range(5,7)
-increment=0.1
+guess=54321
+increment=0.0001
 y=0
-epsilon=0.1 #range
+epsilon=0.01 #range
 # condizione per entrare dentro al range 
 while abs(y**2 - guess) >= epsilon and y**2 <= guess: # secondo condizione se y**2 supera il guess essendo che potrebbe superarla 
     y+=increment
