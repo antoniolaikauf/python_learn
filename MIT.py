@@ -30,3 +30,13 @@ def calcolo():
     else: return nextGuess
 
 calcolo()
+
+'''
+radice quadrata
+'''
+G=0
+x=int(input('Number: '))
+while G**2 <= x:
+    if G**2==x: print(f'{G} è il quadrato di {x}')
+    else:print(f'{G} non è la potenza di {x}')
+    G+=1
