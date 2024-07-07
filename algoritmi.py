@@ -16,7 +16,21 @@ print(f"Booleano (True): {sys.getsizeof(b)} bytes")
 s = "o"
 print(f"Stringa (Hello): {sys.getsizeof(s)} bytes")
 
+'''
+algoritmo approssimato/approximate algorithm le performance di questo algoritmo vanno in base ai due 
+parametri: al range rappresentato come epsilon e l'incremento più è grande il range più sarà veloce ma meno accurato, più 
+l'incremento sarà piccolo più l'algoritmo sarà accurato 
+'''
+guess=16
+rangeGuess=range(5,7)
+increment=0.1
+y=0
+epsilon=0.1 #range
+# condizione per entrare dentro al range 
+while abs(y**2 - guess) >= epsilon and y**2 <= guess: # secondo condizione se y**2 supera il guess essendo che potrebbe superarla 
+    y+=increment
 
+print(y)
 
 for x in range(1,6):
     for y in range(x):
