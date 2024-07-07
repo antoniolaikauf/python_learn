@@ -2,13 +2,18 @@
 trasformare numero decimale in binario
 '''
 
-num=1057
+num=-1057
 string=''
-while num>0:
+flag=False
+if num < 0:
+     num= abs(num)
+     flag= True
+
+while num > 0:
     if num == 0 : string='0'
     string += str(num%2)
     num= num // 2
-
+if flag: string= '-' + string
 print(string)
 
 '''
