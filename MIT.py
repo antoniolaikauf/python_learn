@@ -17,10 +17,14 @@ if flag: string= '-' + string
 print(string)
 
 '''
-trasformazione numero decimale in binario 
+trasformazione numero decimale in binario
+nella memoria vengono salvati due numeri in coppia  (125 , -2) prima si trasforma 125 in base 2 
+quindi 1111101 e sarebbero le cifre più importanti invece l'altro numero sarebbe in base due 
+e dice dove posizionare la virgola 11111.01 
+125 * 2**-2 = 31.25 quindi 11111.01 nella memoria è la rappresentazione di 31.25
 '''
 
-x = 0.625
+x = 31.25
 p = 0
 # trovare p
 while ((2**p) * x) % 1 != 0:
@@ -37,7 +41,7 @@ while num > 0:
 for i in range(p - len(result)):
     result = '0' + result
 # Compone la stringa binaria frazionaria
-result = '0.' + result
+result = result[:-p] + '.' + result[-p:]
 
 print(f'{p} è il numero corretto')
 print('{} rappresentazione binario {}'.format(x, result))
