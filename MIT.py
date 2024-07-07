@@ -1,4 +1,17 @@
 '''
+trasformare numero decimale in binario
+'''
+
+num=1057
+string=''
+while num>0:
+    if num == 0 : string='0'
+    string += str(num%2)
+    num= num // 2
+
+print(string)
+
+'''
 floating point error
 '''
 i=0
