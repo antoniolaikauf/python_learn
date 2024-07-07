@@ -40,7 +40,7 @@ start=0
 high= guessB
 epsilonB=1 #range
 middle = (high + start) / 2.0
-while (middle**2) - guessB <= epsilonB:
+while (middle**2) - guessB > epsilonB:
     if middle**2 < guessB: start = middle 
     else: high= middle 
     middle = (high + start) / 2.0
