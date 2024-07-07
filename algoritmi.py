@@ -19,8 +19,11 @@ print(f"Stringa (Hello): {sys.getsizeof(s)} bytes")
 '''
 algoritmo approssimato/approximate algorithm le performance di questo algoritmo vanno in base ai due 
 parametri: al range rappresentato come epsilon e l'incremento più è grande il range più sarà veloce ma meno accurato, più 
-l'incremento sarà piccolo più l'algoritmo sarà accurato 
+l'incremento sarà piccolo più l'algoritmo sarà accurato.
+volendo si potrebbe velocizzare questo algoritmo con l'algoritmo binary search ma il numero da ricercare 
+dovrebbe essere un quadrato perfetto 
 '''
+
 guess=54321
 increment=0.0001
 y=0
@@ -30,6 +33,17 @@ while abs(y**2 - guess) >= epsilon and y**2 <= guess: # secondo condizione se y*
     y+=increment
 if abs(y**2) > guess+increment: print('not found')
 else:print('{} root of {}'.format(y,guess)) 
+
+
+guessB=54321
+start=0
+high= guessB
+while start<=guessB:
+    middle = (high + start) // 2
+    if middle**2 == guessB: print('trovato',middle);break
+    if middle**2 < guessB: start = (high // 2) - 1
+    if middle**2 > guessB: high= (high // 2) + 1
+
 
 
 # albero
