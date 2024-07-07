@@ -32,11 +32,12 @@ def calcolo():
 calcolo()
 
 '''
-radice quadrata
+potenza
 '''
 G=0
 x=int(input('Number: '))
-while G**2 <= x:
-    if G**2==x: print(f'{G} è il quadrato di {x}')
-    else:print(f'{G} non è la potenza di {x}')
+while G**2 < x:
     G+=1
+if G**2==x: print(f'{G} è il quadrato di {x}')
+elif x<0:print(f'intendevi {-x} ?')
+else:print(f'{x} non è un quadrato perfetto')
