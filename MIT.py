@@ -1,3 +1,13 @@
+'''
+floating point error
+'''
+i=0
+for x in range(11):
+    i+=0.1
+print(i , 0,1*10)
+print(i == 1)
+
+
 questionn=input('put verb: ')
 print(f'i can {questionn} better then you')
 print((questionn + ' ') * 5)
