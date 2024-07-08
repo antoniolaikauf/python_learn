@@ -1,11 +1,15 @@
-x=3
-def y():
-    x=15
-    return x
+def apply(criteria,n):
+    countE=0
+    for x in range(n+1):
+        if criteria(x) == True: countE+=1 
+    return countE
 
-print(y())
-print(x)
+def is_even(x):
+    return x % 2 == 0
 
+how_many=apply(is_even,10)
+print(how_many)
+exit(0)
 '''
 trovare tutte le radice quadrate di un range 
 '''
@@ -31,7 +35,6 @@ def count_num(root, epsilon):
 
 print(count_num(10,0.1))
 
-exit(0)
 '''
 valore triangular 
 un valore si dice che è triangular se è uguale alla somma dei numeri naturali (in fila)
