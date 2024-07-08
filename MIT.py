@@ -1,3 +1,11 @@
+x=3
+def y():
+    x=15
+    return x
+
+print(y())
+print(x)
+
 '''
 trovare tutte le radice quadrate di un range 
 '''

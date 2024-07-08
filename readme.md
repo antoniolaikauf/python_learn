@@ -105,9 +105,12 @@ Con match si possono combinare varie condizioni con l'operatore or
 ## Funzioni 
 Per utilizare la funzione la sintassi è def seguita dal nome della funzione, un argomento molto importante sono i vari tipi di scope (l'ambito di visibilità di una certa variabile, o l'insieme di variabili utilizzate all'interno di una funzione) sono **local**, **enclosing**, **global**, **built-in**
 
-built-in e global sono accessibili ovunque invece enclosing e local no
-
 ![](img/Screenshot%202024-06-20%20143532.png)
+
+
+ Quando si chiama una funzione essa crea un mini enviroment che è completamente separato dal main enviroment infatti nei due enviroment si possono avere variabili con lo stesso nome ma non interferiscono tra di loro, quando avviene la call della funzione il main enviroment viene messo in attesa per far eseguire le opreazione del enviroment della funzione una volta appena la funzione ritorna un valore l'enviroment della funzione scompare 
+
+![](img/Screenshot%202024-07-08%20171647.png)
 
 Lo scopo dello scope è quello di proteggere la variabile, in modo che non venga modificata da altre parti del codice.
 
