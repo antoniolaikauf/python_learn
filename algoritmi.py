@@ -41,7 +41,7 @@ high= guessB
 epsilonB=0.01 #range
 
 if guessB < 1 : 
-    start=guessB
+    start=guessB #si potrebbe mettere anche 0 ma farebbe un ciclo in più 
     high = 1.0
 
 middle = (high + start) / 2.0
@@ -123,8 +123,12 @@ def balance(br):
 print(balance(point))
 
 
-# algoritmo ricerca binaria passi in log base 2 di n nell'esempio sotto n è 10 quindi 3,33
 
+'''
+ algoritmo ricerca binaria passi in log base 2 di n nell'esempio sotto n è 10 quindi 3,33
+ uno dei vantaggi di questo algoritmo è che se si raddoppiasse n quindi da 10 elementi a 20 farebbe
+ solo un ciclo in più perchè (20 + 0) // 2 fa 10 che era il range iniziale 
+'''
 
 def create_arry(num):
     array=[x for x in range(1,num)]

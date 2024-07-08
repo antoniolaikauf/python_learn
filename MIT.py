@@ -1,4 +1,22 @@
 '''
+ricerca binaria cubo
+'''
+
+cube=10
+start=0
+high=cube
+epsilon=0.01
+
+middle=(start + high) / 2
+while abs((middle**3) - cube) > epsilon:
+    if middle**3  < cube: start = middle
+    else : high= middle
+    middle= (start + high) / 2 
+
+print(middle) 
+
+
+'''
 trasformare numero decimale in binario
 '''
 

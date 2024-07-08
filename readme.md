@@ -1,7 +1,7 @@
 # Python
 
 Python è un linguaggio molto popolare grazie alla sua varietà di pacchetti open-source, inoltre consente ai sui svilupptori di strutturare il loro codice in molti modi, i tre paradigmi (che si rifersice allo stile di scrittura del programma) in python sono :
-- **orientati agli oggetti** è il modello principale (creazione di oggetti e classi). Questo paradigma è stato inventato da Alan Kay.
+- **Orientati agli oggetti** è il modello principale (creazione di oggetti e classi). Questo paradigma è stato inventato da Alan Kay.
 
   -  Le quattro proprietà per OOP sono:
      - Astrazione
