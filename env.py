@@ -195,3 +195,21 @@ print(combination[0], combination[-1])
 tutte le possibili combinazioni per trovare una combinazione a 4 cifre e il tempo necessario per completare 
 l'algoritmo O(n**4)
 '''
+
+import sys
+
+# Intero
+i = 1000000
+print(f"Intero (10): {sys.getsizeof(i)} bytes")
+
+# Float
+f = 10.0
+print(f"Float (10.0): {sys.getsizeof(f)} bytes")
+
+# Booleano
+b = True
+print(f"Booleano (True): {sys.getsizeof(b)} bytes")
+
+# Stringa
+s = "o"
+print(f"Stringa (Hello): {sys.getsizeof(s)} bytes")

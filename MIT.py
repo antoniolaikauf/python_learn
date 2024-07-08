@@ -1,3 +1,45 @@
+'''
+trovare tutte le radice quadrate di un range 
+'''
+
+def square_root(i, e):
+    low=0
+    high=i
+    middle=(low + high) / 2
+    while abs(middle**2 - i) > e:
+        if middle**2 < i: low = middle
+        else: high= middle
+        middle=(low + high) /2
+    return middle
+    
+def count_num(root, epsilon):
+    count=0
+    for x in range(1,root**3):
+        SQR=square_root(x,epsilon)
+        if abs((SQR - root)) < epsilon:
+            count+=1
+            print(SQR)
+    return count
+
+print(count_num(10,0.1))
+
+exit(0)
+'''
+valore triangular 
+un valore si dice che è triangular se è uguale alla somma dei numeri naturali (in fila)
+es. 6 è triangular perché 1+2+3 fa 6, 10 è triangular 1+2+3+4 =10
+'''
+def triangular(p):
+    value=0
+    for x in range(p+1):
+        value += x 
+        if value == p :return True
+    return False
+
+print(triangular(10))
+print(triangular(1))
+print(triangular(30))
+
 def divide(a,b):
     return a % b == 0
 

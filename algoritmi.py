@@ -1,40 +1,3 @@
-import sys
-
-# Intero
-i = 1000000
-print(f"Intero (10): {sys.getsizeof(i)} bytes")
-
-# Float
-f = 10.0
-print(f"Float (10.0): {sys.getsizeof(f)} bytes")
-
-# Booleano
-b = True
-print(f"Booleano (True): {sys.getsizeof(b)} bytes")
-
-# Stringa
-s = "o"
-print(f"Stringa (Hello): {sys.getsizeof(s)} bytes")
-
-'''
-algoritmo approssimato/approximate algorithm le performance di questo algoritmo vanno in base ai due 
-parametri: al range rappresentato come epsilon e l'incremento più è grande il range più sarà veloce ma meno accurato, più 
-l'incremento sarà piccolo più l'algoritmo sarà accurato.
-volendo si potrebbe velocizzare questo algoritmo con l'algoritmo binary search ma il numero da ricercare 
-dovrebbe essere un quadrato perfetto 
-'''
-
-guess=54321
-increment=0.0001
-y=0
-epsilon=0.01 #range
-# condizione per entrare dentro al range 
-while abs(y**2 - guess) >= epsilon and y**2 <= guess: # secondo condizione se y**2 supera il guess essendo che potrebbe superarla 
-    y+=increment
-if abs(y**2) > guess+increment: print('not found')
-else:print('{} root of {}'.format(y,guess)) 
-
-
 guessB=0.5
 start=0
 high= guessB
@@ -51,6 +14,27 @@ while abs((middle**2) - guessB) >= epsilonB:
     else: high= middle 
     middle = (high + start) / 2.0
 print(middle)
+
+
+
+'''
+algoritmo approssimato/approximate algorithm le performance di questo algoritmo vanno in base ai due 
+parametri: al range rappresentato come epsilon e l'incremento più è grande il range più sarà veloce ma meno accurato, più 
+l'incremento sarà piccolo più l'algoritmo sarà accurato.
+volendo si potrebbe velocizzare questo algoritmo con l'algoritmo binary search ma il numero da ricercare 
+dovrebbe essere un quadrato perfetto 
+'''
+
+
+guess=54321
+increment=0.0001
+y=0
+epsilon=0.01 #range
+# condizione per entrare dentro al range 
+while abs(y**2 - guess) >= epsilon and y**2 <= guess: # secondo condizione se y**2 supera il guess essendo che potrebbe superarla 
+    y+=increment
+if abs(y**2) > guess+increment: print('not found')
+else:print('{} root of {}'.format(y,guess)) 
 
 
 
