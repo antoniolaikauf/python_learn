@@ -35,12 +35,18 @@ if abs(y**2) > guess+increment: print('not found')
 else:print('{} root of {}'.format(y,guess)) 
 
 
-guessB=54321
+guessB=0.5
 start=0
 high= guessB
-epsilonB=1 #range
+epsilonB=0.01 #range
+
+if guessB < 1 : 
+    start=guessB
+    high = 1.0
+
 middle = (high + start) / 2.0
-while (middle**2) - guessB > epsilonB:
+# abs valore assoluto 
+while abs((middle**2) - guessB) >= epsilonB:
     if middle**2 < guessB: start = middle 
     else: high= middle 
     middle = (high + start) / 2.0
