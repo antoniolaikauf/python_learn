@@ -1,3 +1,9 @@
+def divide(a,b):
+    return a % b == 0
+
+print(divide(10,3))
+print(divide(195,13))
+
 '''
 ricerca binaria cubo
 '''
@@ -14,7 +20,6 @@ while abs((middle**3) - cube) > epsilon:
     middle= (start + high) / 2 
 
 print(middle) 
-
 
 '''
 trasformare numero decimale in binario

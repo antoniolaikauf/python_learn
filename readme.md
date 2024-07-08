@@ -115,6 +115,12 @@ Nelle funzioni si possono passare i parametri come tutti gli altri linguaggi di 
 
 i due tipi di funzione possono essere tradizionali o pure, le funzioni pure sono funzioni che non cambiano o non hanno nessun effetto su variabili, data, set, oltre il suo proprio ambito es. se si avesse una variabile globale, le funzioni pure non riuscirebbero a modificarla. 
 
+Quando nella funzione non facciamo ritornare nulla da essa pyhton metterà da solo **return None** 
+
+![](img/Screenshot%202024-07-08%20144626.png)
+
+anche se non c'è scritto None viene compunque ritornato dalla funzione 
+
 ## strutture dati 
 permette di organizzare e di disporre i suoi dati per eseguire operazioni su di esse. Queste strutture dati possono essere **Mutabili** o **Immutabili**.
 
