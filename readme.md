@@ -214,7 +214,9 @@ La sintassi per utilizzare un modulo è import, se un modello non è presente ne
  - math: operazioni matematiche
  - pytorch, tensorflow, keras: per ML
  - numpy: calcolo scientifico 
- - pandas: lavorare e manipolare dati 
+ - pandas: lavorare e manipolare dati
+ - unittest: test per software 
+ - PyTest: test per software 
 
 
 ## databese 
