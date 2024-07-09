@@ -173,7 +173,6 @@ In python esiste l'errore chiamato **floating point error** in cui rende diffici
 
 ![](img/Screenshot%202024-07-07%20112422.png)
 
-
 ## Funzioni file
 Ci sono tre tipi di funzioni per gestire i file **open** **close** **with**
 
@@ -193,8 +192,6 @@ la funzione lambda è una funzione piu compatta e anonima (cioè che non bisogna
 ![](img/Screenshot%202024-07-01%20094835.png)
 
 nell'immagine i due argomenti sono a e b e l'espressione ne ha solo una a * b
-
-
 
 ## Moduli
 I moduli permettono di fare cose piu potenti a python, sono blocchi di codice che aggiungono funzionalita al tuo codice cosi che non hai bisogno di ricustruire sempre ogni cosa.

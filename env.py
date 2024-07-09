@@ -179,6 +179,9 @@ main()
 lam=lambda a,b: a*b
 print(lam(2,3))
 
+# un altro modo per utilizzare le funzioni lmbda e passare un parametro 
+(lambda y: y%2 == 0)(8)
+
 timeA=time.time()
 num=10
 combination=[]

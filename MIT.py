@@ -1,3 +1,21 @@
+'''
+dividi stringa in consonanti e vocali
+'''
+
+def divide(s):
+    vocali='aeiou'
+    v=0
+    c=0
+    s= s.replace(' ', '')
+    if type(s) != str: return False
+    for x in s:
+        if x in vocali: v+=1
+        else:c+=1
+    return(v,c)
+
+print(divide('ciao come'))
+exit(0)
+
 def apply(criteria,n):
     countE=0
     for x in range(n+1):
@@ -9,7 +27,6 @@ def is_even(x):
 
 how_many=apply(is_even,10)
 print(how_many)
-exit(0)
 '''
 trovare tutte le radice quadrate di un range 
 '''
