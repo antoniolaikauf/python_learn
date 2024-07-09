@@ -250,6 +250,14 @@ per calcolare il tempo necessario per un algoritmo ad essere completato si usa l
 Per rappresentare il miglior caso di un algoritmo si usa **L'omega Ω**.
 
 
+## test 
+[vedi file](./Test/test_addition.py)
+
+
+![](img/Screenshot%202024-07-09%20151102.png)
+
+Per vedere se i test sono tutti passati bisogna vedere in parte al percorso del file che si ha testato se ci sono solo puntini allora i test sono passati 
+
 # Links 
 - https://docs.python.org/3/library/functions.html funzioni di python 
 
