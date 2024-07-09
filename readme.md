@@ -276,3 +276,7 @@ Per vedere se i test sono tutti passati bisogna vedere in parte al percorso del 
 - https://www.geeksforgeeks.org/python-oops-concepts/ OOP
 
 - https://www.programiz.com/python-programming/modules moduli
+
+- https://testdriven.io/blog/modern-tdd/ sviluppo test 
+
+- https://docs.pytest.org/en/7.1.x/ pytest
