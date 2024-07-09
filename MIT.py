@@ -1,4 +1,18 @@
 '''
+sum and prod
+'''
+
+def sum_and_prod(*L):
+    sum=0
+    prod=1
+    for x in L:
+        sum+=x
+        prod*=x
+    return(sum,prod)
+
+print(sum_and_prod(1,2,3,5,2,4,6))
+
+'''
 dividi stringa in consonanti e vocali
 '''
 
@@ -14,7 +28,6 @@ def divide(s):
     return(v,c)
 
 print(divide('ciao come'))
-exit(0)
 
 def apply(criteria,n):
     countE=0
