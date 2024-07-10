@@ -3,6 +3,18 @@ def num_list(n):
 
 print(num_list(10))
 
+def removed_ele(L,n):
+    return [x for x in L if x != n]
+
+L=[1,2,2,3,4]
+print(removed_ele(L,2))
+
+def count_word(sen):
+    words=sen.split(' ')
+    return len(words)
+
+print(count_word('hello word'))
+
 '''
 sum and prod
 '''
