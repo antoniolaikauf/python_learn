@@ -1,3 +1,15 @@
+def pair(Li1,Li2):
+    try:
+        len(Li1) == len(Li2)
+        return [round(y / Li2[x],2)  for x,y in enumerate(Li1)]
+    except ZeroDivisionError: raise ZeroDivisionError('divisione per 0 infinita')
+    except: raise ValueError('liste di diversa lunghezza')
+
+num1=[1,2,3,4]
+num2=[3,2,5,6]
+print(pair(num1,num2))
+exit(0)
+
 def num_list(n):
     return [x for x in range(n+1)]
 
