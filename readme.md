@@ -187,7 +187,9 @@ Ci sono due tipi di errori
 - eccezioni 
   - succedono durante l'esecuzione del codice
 
-per modificare il messaggio di errore si usa **try** o **except** nel except si possno ottenere le informazini dell'eccezione usando la classe e as e 
+per modificare il messaggio di errore si usa **try** o **except** nel except si possno ottenere le informazini dell'eccezione usando la classe e as e, inoltre insieme a try ed except esistono altri due blocchi uno **finally** che viene eseguito sia se c'è un errore o no e l'altro è **else** che viene eseguito solo se non ci sono errori
+
+Tutti i tipi di errori si possono trovare  [qui](https://www.w3schools.com/python/python_ref_exceptions.asp)
 
 ![](img/Screenshot%202024-06-21%20144617.png)
 

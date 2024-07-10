@@ -24,7 +24,6 @@ def eliminate_element(ListN,n):
 Li=[1,2,3,4,5,6]
 eliminate_element(Li,2)
 print(Li)
-exit(0)
 '''
 sum and prod
 '''
