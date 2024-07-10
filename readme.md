@@ -62,7 +62,7 @@ Python per comunicare con il computer utilizza un tipo di codifica chiamato **Un
  Un data type è un attributo associato a un pezzo di dato che dice al computer come interpetrare il suo valore.
 Per determinare il tipo di una variabile si usa la funzione **type()**.
  I vari tip di dati in Python sono:
- 1. Numeric (sono intercambiabili come le stringhe)
+ 1. Numeric (sono immutabili come le stringhe)
     - integer (Memoria allocata generalmente 28 bytes)
     - float (Memoria allocata generalmente 24 bytes)
     - complex number 
@@ -71,7 +71,7 @@ Per determinare il tipo di una variabile si usa la funzione **type()**.
  4. Set (è una conllezione di dati non ripetitivi e non ordinati)
  5. Sequence 
     - string (Memoria allocata se unicode (4 bytes per carattere) o ascii(49n byte che sarebbe un overhead + un byte per ogni carattere)) le stringhe sono immutabili (quando si modifica una stringa python non modificherà quella stringa che hai salvato nella memoria ma creerà una nuova variabile associata a quel nome e la salverà nella memoria e l'altra variabile rimmarrà nella memoria) inoltre le stringe sono liste di caratteri quindi si può utilizzare [i] per ottenere un singolo carattere 
-    - list
+    - list  Nelle liste invece si possono cambiare i valori al suo interno quindi non hanno la proprietà delle stringhe di essere immutabili 
     - tuples
 
 A differenza di altri linguaggi che hanno piu tipi di dati in base al valore delle variabile (es in c si hanno anche i double) in python non c'è bisogno perchè fornisce gia lui una grande quantita di bit a disposizione della variabile.
@@ -132,7 +132,11 @@ Python dispone di 4 stutture dati:
 1. tuple 
    - possono contenere qualsiasi tipo di dato ma la differesza con il set è che non si possono modificare i valori dentro ai tuple quindi sono immutabili 
 2. elenco 
-   - possono contenere qualsiasi tipo di dato 
+   - possono contenere qualsiasi tipo di dato. modo sbagliato di modificare una lista 
+
+   ![](img/Screenshot%202024-07-10%20084952.png)
+
+   perchè **la funzione append non ritorna niente come valore** e quindi quando si fa il print di L si perde il collegamento nella memoria e ritorna none
 3. dizionario 
    - si basano sulle key e non sull'index, all'interno non ci possno essere due key uguali 
 4. set 

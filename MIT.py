@@ -1,3 +1,8 @@
+def num_list(n):
+    return [x for x in range(n+1)]
+
+print(num_list(10))
+
 '''
 sum and prod
 '''
@@ -8,7 +13,7 @@ def sum_and_prod(*L):
     for x in L:
         sum+=x
         prod*=x
-    return(sum,prod)
+    return (sum,prod)
 
 print(sum_and_prod(1,2,3,5,2,4,6))
 
