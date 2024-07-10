@@ -140,7 +140,11 @@ Python dispone di 4 stutture dati:
 
    ![](img/Screenshot%202024-07-10%20084952.png)
 
-   perchè **la funzione append non ritorna niente come valore** e quindi quando si fa il print di L si perde il collegamento nella memoria e ritorna none (oltre ad append ci sono anche remove). Ci sono alcune funzioni che modificano la lista e ritornano il valore e una di queste è Pop quindi L=L.pop(2) è corretta come sintassi 
+   perchè **la funzione append non ritorna niente come valore** e quindi quando si fa il print di L si perde il collegamento nella memoria e ritorna none (oltre ad append ci sono anche remove), ciclare su liste che vengono modificate all'interno del ciclo tramite append o remove potrebbe portare a un malfunzionamento del codice.
+
+   ![](img/Screenshot%202024-07-10%20111355.png)
+   
+    Ci sono alcune funzioni che modificano la lista e ritornano il valore e una di queste è Pop quindi L=L.pop(2) è corretta come sintassi 
 3. dizionario 
    
    si basano sulle key e non sull'index, all'interno non ci possno essere due key uguali 
@@ -151,6 +155,19 @@ Python dispone di 4 stutture dati:
 inoltre pyhton permette di creare la propria struttura dati come **Stack**, **Queue**, **Tree**
 
 La scelta delle strutture di dati dipende da  **dimensione**, **velocità**, **prestazione**.
+
+negli oggetti che sono mutabili se non diciamo noi a pyhton di creare una copia di quel oggetto e cambiassimo 
+un oggetto cambierà anche l'altro questo perche ci sono due nomi che puntano alla stessa posizione di memoria 
+
+![](img/Screenshot%202024-07-10%20112443.png)
+
+per creare una copia si può usare la funzione copy() **ma creerà solo una shallow copy** (crea una solo copia di un livello nell'ogetto mutabile)
+
+![](img/Screenshot%202024-07-10%20114047.png) 
+
+nella foto se si avese modificato solo nel primo livello quindi c[0] avrebbe modificato solo la copia ma già nel secondo livello di profondità non si ha più una copia e quindi entrambi vengono modificati
+
+
 
 ### Le comprensioni 
 Le comprensioni in python sono un modo per creare una nuova sequenza da una sequenza gia esistente o crearen uno nuovo direttamente
