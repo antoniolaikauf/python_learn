@@ -130,17 +130,23 @@ permette di organizzare e di disporre i suoi dati per eseguire operazioni su di 
 Python dispone di 4 stutture dati:
 
 1. tuple 
-   - possono contenere qualsiasi tipo di dato ma la differesza con il set è che non si possono modificare i valori dentro ai tuple quindi sono immutabili 
+   
+    possono contenere qualsiasi tipo di dato ma la differesza con il set è che non si possono modificare i valori dentro ai tuple quindi sono immutabili 
 2. elenco 
-   - possono contenere qualsiasi tipo di dato. modo sbagliato di modificare una lista 
+   
+    possono contenere qualsiasi tipo di dato.
+   
+    modo sbagliato di modificare una lista 
 
    ![](img/Screenshot%202024-07-10%20084952.png)
 
-   perchè **la funzione append non ritorna niente come valore** e quindi quando si fa il print di L si perde il collegamento nella memoria e ritorna none
+   perchè **la funzione append non ritorna niente come valore** e quindi quando si fa il print di L si perde il collegamento nella memoria e ritorna none (oltre ad append ci sono anche remove). Ci sono alcune funzioni che modificano la lista e ritornano il valore e una di queste è Pop quindi L=L.pop(2) è corretta come sintassi 
 3. dizionario 
-   - si basano sulle key e non sull'index, all'interno non ci possno essere due key uguali 
+   
+   si basano sulle key e non sull'index, all'interno non ci possno essere due key uguali 
 4. set 
-   - i set non permettono di avere valori duplicati, con i set si possono fare diverse operazione matematiche tra due set come l'unione l'intersezione e la differenza tra due insiemi 
+   
+   i set non permettono di avere valori duplicati, con i set si possono fare diverse operazione matematiche tra due set come l'unione l'intersezione e la differenza tra due insiemi 
 
 inoltre pyhton permette di creare la propria struttura dati come **Stack**, **Queue**, **Tree**
 

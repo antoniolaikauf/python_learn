@@ -15,6 +15,16 @@ def count_word(sen):
 
 print(count_word('hello word'))
 
+def eliminate_element(ListN,n):
+    li = ListN.copy()
+    ListN.clear()
+    for x in li: 
+        if x != n: ListN.append(x)
+
+Li=[1,2,3,4,5,6]
+eliminate_element(Li,2)
+print(Li)
+exit(0)
 '''
 sum and prod
 '''
