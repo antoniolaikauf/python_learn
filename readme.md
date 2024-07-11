@@ -147,7 +147,7 @@ Python dispone di 4 stutture dati:
     Ci sono alcune funzioni che modificano la lista e ritornano il valore e una di queste è Pop quindi L=L.pop(2) è corretta come sintassi 
 3. dizionario 
    
-   si basano sulle key e non sull'index, all'interno non ci possno essere due key uguali 
+   si basano sulle key e non sull'index, all'interno non ci possno essere due key uguali e le key devono essere immutabili, python nel salvare un dizionario nella memoria esegue una **hash function sulla key** e trasforma la key in un numero che punterà al valore nella memoria che fa riferimento a quella key, quindi le key devono essere **immutabili** per questo 
 4. set 
    
    i set non permettono di avere valori duplicati, con i set si possono fare diverse operazione matematiche tra due set come l'unione l'intersezione e la differenza tra due insiemi 
