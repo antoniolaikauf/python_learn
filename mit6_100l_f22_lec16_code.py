@@ -251,7 +251,7 @@ def total_len_recur(L):
 # corretto  
 
 test = ["ab", "c", "defgh"]
-print(total_len_recur(test))  # should print 8
+# print(total_len_recur(test))  # should print 8
 
 def in_lists_of_list(L, e):
     """
@@ -291,8 +291,18 @@ def in_lists_of_list(L, e):
 ######################################################
 # Q1. Memoize the code to find possible scores in basketball
 def score_count(x, d):
-    pass
-    
+    if x in d:
+        return d[x]
+    else:
+        return score_count(x-1,d) + score_count(x-2,d) + score_count(x-3,d)
+
+'''
+si sommano tutte le combinazioni di 4 di 3  di 5 essendo che possono essere 4+2=6 3+3 =6 5+1=6
+x4=6
+x3=3
+x5=6+3+2
+ragionamento con 6
+'''
 d = {1:1, 2:2, 3:3}
 # print(score_count(4, d))  # prints 6
 # print(score_count(6, d))  # prints 20
@@ -308,14 +318,22 @@ def in_list_of_lists_mod(L, e):
     sublists of L and False otherwise. 
     """
     # your code here
+    if len(L)== 0: return False
+    else:
+        if type(L[0]) == int:
+            if L[0] == e : return True
+            else: return in_list_of_lists_mod(L[1:],e)
+        else:
+            if e in L[0]: return True
+            else: return in_list_of_lists_mod(L[1:],e)
 
 
-# test = [[1,2],3,4,5,6,7]
-# print(in_list_of_lists_mod(test, 3))  # prints True
-# test = [[1,2],[3,4,5],6,7]
-# print(in_list_of_lists_mod(test, 3))  # prints True
-# test = [[1,2],[3,4,5],6,7]
-# print(in_list_of_lists_mod(test, 10))  # prints False
+test = [[1,2],3,4,5,6,7]
+print(in_list_of_lists_mod(test, 3))  # prints True
+test = [[1,2],[3,4,5],6,7]
+print(in_list_of_lists_mod(test, 3))  # prints True
+test = [[1,2],[3,4,5],6,7]
+print(in_list_of_lists_mod(test, 10))  # prints False
 
 # Q3. 
 def my_deepcopy(L):
