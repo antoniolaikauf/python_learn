@@ -1,9 +1,33 @@
+# n=10
+# for x in range(n):
+#     if x==0 or x==(n-1): print('*'*n, end='')
+#     else: print('*' + ' ' * (n-2) + '*',  end='')
+#     print()
+
+
 # for x in range(4):
 #     for y in range(4):
 #         for i in range(4):
 #           print(str(x) + str(y) + str(i))
 # 27 possibili combinazioni 3*3*3 = 3^3
 
+def reverse(li):
+    if len(li)==1: return li
+    else:
+       return  reverse(li[1:]) + [li[0]]
+
+listR=[1,2,3,4,5]
+print(reverse(listR))
+exit(0)
+def li(Li,d):
+    if d in Li[0]:return True
+    elif len(Li) == 1 and d not in Li[0]: return False
+    return li(Li[1:],d)
+
+ar=[[1,2,3],[4,5,6]]
+print(li(ar,4))
+
+exit(0)
 def sum(d):
     if len(d) == 1: return d[0]
     else:
