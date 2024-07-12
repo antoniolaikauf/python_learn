@@ -1,3 +1,19 @@
+# for x in range(4):
+#     for y in range(4):
+#         for i in range(4):
+#           print(str(x) + str(y) + str(i))
+# 27 possibili combinazioni 3*3*3 = 3^3
+
+def sum(d):
+    if len(d) == 1: return d[0]
+    else:
+        return d[0] + sum(d[1:])
+
+l=[1,2,3,4,50,60]
+print(sum(l))
+
+
+
 def fib(x,dic):
     if x in dic: return dic[x]
     else: return fib(x-1,dic) + fib(x-2,dic)
@@ -180,7 +196,9 @@ p = 0
 while ((2**p) * x) % 1 != 0:
     p += 1
 #convertire in binario
+print(p)
 num = int(x * (2**p))
+print(num)
 result = ''
 if num == 0:
     result = '0'
@@ -195,7 +213,6 @@ result = result[:-p] + '.' + result[-p:]
 
 print(f'{p} è il numero corretto')
 print('{} rappresentazione binario {}'.format(x, result))
-
 
 
 '''
