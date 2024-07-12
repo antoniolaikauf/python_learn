@@ -1,3 +1,16 @@
+'''
+buble sort O(n**2)
+'''
+def buble_sort(d):
+    for x in range(len(d)):
+        for y in range((len(d)-1) - x):
+            if d[y] > d[y+1]:
+                d[y], d[y+1]= d[y+1], d[y]
+    return d
+
+Bs=[1,2,5,3,7,6,9,22,10,25,12]
+print(buble_sort(Bs))
+
 guessB=0.5
 start=0
 high= guessB

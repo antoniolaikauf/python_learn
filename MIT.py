@@ -18,7 +18,7 @@ def reverse(li):
 
 listR=[1,2,3,4,5]
 print(reverse(listR))
-exit(0)
+
 def li(Li,d):
     if d in Li[0]:return True
     elif len(Li) == 1 and d not in Li[0]: return False
@@ -27,7 +27,6 @@ def li(Li,d):
 ar=[[1,2,3],[4,5,6]]
 print(li(ar,4))
 
-exit(0)
 def sum(d):
     if len(d) == 1: return d[0]
     else:
@@ -35,7 +34,6 @@ def sum(d):
 
 l=[1,2,3,4,50,60]
 print(sum(l))
-
 
 
 def fib(x,dic):
