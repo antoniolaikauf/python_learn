@@ -1,3 +1,11 @@
+def fib(x,dic):
+    if x in dic: return dic[x]
+    else: return fib(x-1,dic) + fib(x-2,dic)
+
+d={1:1,2:1}
+print(fib(4,d))
+
+
 def pair(Li1,Li2):
     assert len(Li1) == len(Li2), 'lunghezza sbagliata'
     try:
