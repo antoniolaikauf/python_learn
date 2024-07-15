@@ -258,7 +258,10 @@ frameworks usato per il database quindi back-end è **flask** (è più un microf
 
 Possono avere **tempo costante** in cui non bisogna iterare su nessun componente e quindi il tempo non cambia, **tempo lineare** in cui il tempo cresce in base all'input, **tempo logaritmo** il tempo necessario per eseguire un algoritmo cresce in modo logaritmico rispetto alle dimensioni dell'input.
 
-per calcolare il tempo necessario per un algoritmo ad essere completato si usa la notazione big **O** che ci aiuta a rispondere a delle domande Come cambia il tempo di esecuzione di un algoritmo quando i dati di ingresso diventano più grandi? Come scala un algoritmo con l'aumento delle dimensioni dell'input?
+per calcolare il tempo necessario per un algoritmo ad essere completato si usa la notazione big **O** o **limite superiore** che ci aiuta a rispondere a delle domande Come cambia il tempo di esecuzione di un algoritmo quando i dati di ingresso diventano più grandi? Come scala un algoritmo con l'aumento delle dimensioni dell'input?
+
+PS. la grandezza dell'elemento non inluenza il tempo.
+ES. se un elemento è 1 o 100000000000 non inluenza l'algoritmo 
 
 ### Esempi di O
 
@@ -273,7 +276,9 @@ per calcolare il tempo necessario per un algoritmo ad essere completato si usa l
 - tempo esponenziale 
    - negli algoritmi con complessità esponenziale, i tempi di esecuzione crescono esponenzialmente rispetto all'input  es. se avessi tre funzioni che come output possono avere 3 valori output sarebbe 3**3 quindi 27 possibili combinazioni 
 
-Per rappresentare il miglior caso di un algoritmo si usa **L'omega Ω**.
+**L'omega Ω** o **limite ineriore** rappresenta il best case, quindi se si usasse un binary search il best case sarebbe **Ω(1)** perchè nei miglior casi si trova a meta.
+
+Nel buble sort Ω(n)(limite inferiore) perchè deve fare a prescindere un ciclo per controllare invece O(n**2) (upper bount/limite superiore)
 
 Se si volesse calcolare le operazioni necessarie per completare un pezzo di codice bisogna contare quante operazioni deve fare quel codice 
 
@@ -290,7 +295,7 @@ in questo ciclo c'è:
  3. y+=1 è composta da 2 oparazione quella della somma e qualla dell'associazione perche
  si associa e poi si somma  y = y + 1
 
- e tutte queste operazioni sono eseguite **x** volte, quindi per calcolare le operazioni che ci vorranno per questo codice 1 + (x) * (2 + 1) = **3x + 1**
+ e tutte queste operazioni sono eseguite **x** volte, quindi per calcolare le operazioni che ci vorranno per questo codice 1 + (x) * (2 + 1) = **3x + 1**, ma di questa funzione ci concentriamo solo sul termine dominante quindi in questa funzione è **X** cioè è il termine che cresce più rapidamente quando x tende a infinito.
 
      
 
