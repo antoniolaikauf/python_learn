@@ -1,4 +1,16 @@
 '''
+algoritmo eucleide MCD
+'''
+
+def MCD(a,b):
+    while a > 0 and b > 0:
+        if a > b: a= a % b
+        else: b= b % a
+    return max (a,b)
+
+print(MCD(83654748494976383,7474848447))
+
+'''
 buble sort O(n**2)
 '''
 def buble_sort(d):

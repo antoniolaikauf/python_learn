@@ -243,6 +243,7 @@ La sintassi per utilizzare un modulo è import, se un modello non è presente ne
  - pandas: lavorare e manipolare dati
  - unittest: test per software 
  - PyTest: test per software 
+ - Dateutil: date 
 
 
 ## databese 
