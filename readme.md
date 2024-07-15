@@ -273,8 +273,26 @@ per calcolare il tempo necessario per un algoritmo ad essere completato si usa l
 - tempo esponenziale 
    - negli algoritmi con complessità esponenziale, i tempi di esecuzione crescono esponenzialmente rispetto all'input  es. se avessi tre funzioni che come output possono avere 3 valori output sarebbe 3**3 quindi 27 possibili combinazioni 
 
-
 Per rappresentare il miglior caso di un algoritmo si usa **L'omega Ω**.
+
+Se si volesse calcolare le operazioni necessarie per completare un pezzo di codice bisogna contare quante operazioni deve fare quel codice 
+
+es 
+
+y=0
+
+for i in range(x + 1): <br />
+  y+=1 <br />
+
+in questo ciclo c'è:
+ 1. prima oprazione  y=0 
+ 2. associare i ad un elemento nel range 
+ 3. y+=1 è composta da 2 oparazione quella della somma e qualla dell'associazione perche
+ si associa e poi si somma  y = y + 1
+
+ e tutte queste operazioni sono eseguite **x** volte, quindi per calcolare le operazioni che ci vorranno per questo codice 1 + (x + 1) * (2 + 1) = **3x + 4**
+
+     
 
 
 ## test 
