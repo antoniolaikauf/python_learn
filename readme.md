@@ -281,7 +281,7 @@ es
 
 y=0
 
-for i in range(x + 1): <br />
+for i in range(x): <br />
   y+=1 <br />
 
 in questo ciclo c'è:
@@ -290,7 +290,7 @@ in questo ciclo c'è:
  3. y+=1 è composta da 2 oparazione quella della somma e qualla dell'associazione perche
  si associa e poi si somma  y = y + 1
 
- e tutte queste operazioni sono eseguite **x** volte, quindi per calcolare le operazioni che ci vorranno per questo codice 1 + (x + 1) * (2 + 1) = **3x + 4**
+ e tutte queste operazioni sono eseguite **x** volte, quindi per calcolare le operazioni che ci vorranno per questo codice 1 + (x) * (2 + 1) = **3x + 1**
 
      
 
