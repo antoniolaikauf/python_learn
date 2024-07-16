@@ -2,8 +2,8 @@
 def selection_sort(Bs):
     L=len(Bs)
     for x in range(L):
-        for y in range(L):
-            if Bs[x] < Bs[y] : Bs[y],Bs[x]= Bs[x], Bs[y]
+        for y in range(x,L):
+            if Bs[x] > Bs[y] : Bs[y],Bs[x]= Bs[x], Bs[y]
     return Bs  
 
 Bs=[1,2,5,3,7,6,9,22,10,25,12]
