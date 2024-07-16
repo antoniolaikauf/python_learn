@@ -263,10 +263,12 @@ per calcolare il tempo necessario per un algoritmo ad essere completato si usa l
 PS. la grandezza dell'elemento non inluenza il tempo.
 ES. se un elemento è 1 o 100000000000 non inluenza l'algoritmo 
 
+**quando riportiamo la complessità di una funzione/algoritmo la riportiamo rispetto all'input non ad altri valori**
+
 ### Esempi di O
 
 - tempo costante 
-   - negli algoritmi con complessità temporale costante, il tempo di esecuzione rimane sempre costante e non dipende dall'input es. accedere ad un elemento di un array 
+   - negli algoritmi con complessità temporale costante, il tempo di esecuzione rimane sempre costante e non dipende dall'input es. accedere ad un elemento di un array o un loop con un range sempre fisso che non dipenda da un elemento che può variare è costante 
 - tempo lineare 
    - negli algoritmi con complessità temporale lineare il tempo di esecuzione cresce in base alla grandezza dell'input es. cercare elementi dentro ad un array
 - tempo quadratico 

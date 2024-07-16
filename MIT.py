@@ -1,3 +1,11 @@
+n=7
+b=[0,1]
+c=0
+for x in range(n-1):
+    c=b[-1] + b[-2]
+    b.append(c)
+print(b)
+
 # n=10
 # for x in range(n):
 #     if x==0 or x==(n-1): print('*'*n, end='')
