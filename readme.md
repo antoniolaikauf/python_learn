@@ -244,6 +244,7 @@ La sintassi per utilizzare un modulo è import, se un modello non è presente ne
  - unittest: test per software 
  - PyTest: test per software 
  - Dateutil: date 
+ - matplotlob: grafici
 
 
 ## databese 

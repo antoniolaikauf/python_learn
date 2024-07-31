@@ -207,7 +207,7 @@ if num < 0:
 
 while num > 0:
     if num == 0 : string='0'
-    string += str(num%2)
+    string = str(num%2) + string
     num= num // 2
 if flag: string= '-' + string
 print(string)
